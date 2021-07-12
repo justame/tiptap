@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.33 (2021-07-12)
+
+
+### Bug Fixes
+
+* add exports to package.json ([1277fa4](https://github.com/justame/tiptap/commit/1277fa47151e9c039508cdb219bdd0ffe647f4ee))
+* fix lowlight decorations for vue 3 ([daa5dc0](https://github.com/justame/tiptap/commit/daa5dc0fb1ec2db6889565fc9c091f3dbdbbda6d))
+* revert adding exports ([bc320d0](https://github.com/justame/tiptap/commit/bc320d0b4b80b0e37a7e47a56e0f6daec6e65d98))
+* revert adding type: module ([f8d6475](https://github.com/justame/tiptap/commit/f8d6475e2151faea6f96baecdd6bd75880d50d2c))
+
+
+### Features
+
+* add parentConfig to extension context for more extendable extensions, fix [#259](https://github.com/justame/tiptap/issues/259) ([5e1ec5d](https://github.com/justame/tiptap/commit/5e1ec5d2a66be164f505d631f97861ab9344ba96))
+
+
+
+
+
 # [2.0.0-beta.32](https://github.com/ueberdosis/tiptap/compare/@tiptap-es5/extension-code-block-lowlight@2.0.0-beta.31...@tiptap-es5/extension-code-block-lowlight@2.0.0-beta.32) (2021-07-09)
 
 **Note:** Version bump only for package @tiptap-es5/extension-code-block-lowlight

@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.19 (2021-07-12)
+
+
+### Bug Fixes
+
+* add exports to package.json ([1277fa4](https://github.com/justame/tiptap/commit/1277fa47151e9c039508cdb219bdd0ffe647f4ee))
+* fix a bug in link click handler, where we can’t click on text selections. fix [#263](https://github.com/justame/tiptap/issues/263) ([33c30c0](https://github.com/justame/tiptap/commit/33c30c0d6df66190fd1d5073ccc43b1020b517f9))
+* fix a bug that messed up pasted link attributes, fix [#1284](https://github.com/justame/tiptap/issues/1284) ([7da647d](https://github.com/justame/tiptap/commit/7da647d99f1dcefabc653347a8e2abfae3bb972e))
+* revert adding exports ([bc320d0](https://github.com/justame/tiptap/commit/bc320d0b4b80b0e37a7e47a56e0f6daec6e65d98))
+* revert adding type: module ([f8d6475](https://github.com/justame/tiptap/commit/f8d6475e2151faea6f96baecdd6bd75880d50d2c))
+
+
+### Features
+
+* add editor.getAttributes, deprecate editor.getNodeAttributes and editor.getMarkAttributes ([072905c](https://github.com/justame/tiptap/commit/072905cb95e022a37f5bc937889999bfbb33ad88))
+* add linkOnPaste option for adding a link to the current selection if the pasted content only contains an url, fix [#1210](https://github.com/justame/tiptap/issues/1210) ([9e9401e](https://github.com/justame/tiptap/commit/9e9401e68b79d34070fb79c4f356841fa19fe436))
+* add priority option to extensions ([bb1ae65](https://github.com/justame/tiptap/commit/bb1ae659a463e97a7ada15af711347b5c004897a))
+
+
+### Reverts
+
+* Revert "use global namespace" ([0c9ce26](https://github.com/justame/tiptap/commit/0c9ce26c02c07d88a757c01b0a9d7f9e2b0b7502))
+
+
+
+
+
 # [2.0.0-beta.18](https://github.com/ueberdosis/tiptap/compare/@tiptap-es5/extension-link@2.0.0-beta.17...@tiptap-es5/extension-link@2.0.0-beta.18) (2021-06-07)
 
 **Note:** Version bump only for package @tiptap-es5/extension-link

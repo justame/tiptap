@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.15 (2021-07-12)
+
+
+### Bug Fixes
+
+* add exports to package.json ([1277fa4](https://github.com/justame/tiptap/commit/1277fa47151e9c039508cdb219bdd0ffe647f4ee))
+* revert adding exports ([bc320d0](https://github.com/justame/tiptap/commit/bc320d0b4b80b0e37a7e47a56e0f6daec6e65d98))
+* revert adding type: module ([f8d6475](https://github.com/justame/tiptap/commit/f8d6475e2151faea6f96baecdd6bd75880d50d2c))
+
+
+### Reverts
+
+* Revert "use global namespace" ([0c9ce26](https://github.com/justame/tiptap/commit/0c9ce26c02c07d88a757c01b0a9d7f9e2b0b7502))
+
+
+
+
+
 # [2.0.0-beta.14](https://github.com/ueberdosis/tiptap/compare/@tiptap-es5/extension-bold@2.0.0-beta.13...@tiptap-es5/extension-bold@2.0.0-beta.14) (2021-06-07)
 
 **Note:** Version bump only for package @tiptap-es5/extension-bold

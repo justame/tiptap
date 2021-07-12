@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.19 (2021-07-12)
+
+
+### Bug Fixes
+
+* add exports to package.json ([1277fa4](https://github.com/justame/tiptap/commit/1277fa47151e9c039508cdb219bdd0ffe647f4ee))
+* fix tippy for react ([398fc7f](https://github.com/justame/tiptap/commit/398fc7f210b9d5449cbb00543ddf4af768552b9c))
+* improve isActive check for floating menu when using custom doc content, fix [#1205](https://github.com/justame/tiptap/issues/1205) ([b84a56a](https://github.com/justame/tiptap/commit/b84a56a84a60a62ed0a39f8f852595acc08c35f7))
+* revert adding exports ([bc320d0](https://github.com/justame/tiptap/commit/bc320d0b4b80b0e37a7e47a56e0f6daec6e65d98))
+* revert adding type: module ([f8d6475](https://github.com/justame/tiptap/commit/f8d6475e2151faea6f96baecdd6bd75880d50d2c))
+
+
+### Features
+
+* add tippyOptions prop ([9a56f66](https://github.com/justame/tiptap/commit/9a56f666a118ca7c59a6f1f67f40e6490e20d3b8))
+* use tippy for floating menu ([54df2ce](https://github.com/justame/tiptap/commit/54df2ce077a4bac09c3f1d1eab8c68a09d8f8fa9))
+
+
+
+
+
 # [2.0.0-beta.18](https://github.com/ueberdosis/tiptap/compare/@tiptap-es5/extension-floating-menu@2.0.0-beta.17...@tiptap-es5/extension-floating-menu@2.0.0-beta.18) (2021-06-23)
 
 **Note:** Version bump only for package @tiptap-es5/extension-floating-menu

@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.21 (2021-07-12)
+
+
+### Bug Fixes
+
+* add exports to package.json ([1277fa4](https://github.com/justame/tiptap/commit/1277fa47151e9c039508cdb219bdd0ffe647f4ee))
+* fix a bug where setting text align isn’t working when heading extension is not added ([ddb9a4b](https://github.com/justame/tiptap/commit/ddb9a4bf186b766477f21102dae6eb1299ea425a))
+* remove default types for textAlign extension, fix [#1430](https://github.com/justame/tiptap/issues/1430) ([b4e41af](https://github.com/justame/tiptap/commit/b4e41afd1798e7eba4ccb0804be1ed2473c1f4d2))
+* revert adding exports ([bc320d0](https://github.com/justame/tiptap/commit/bc320d0b4b80b0e37a7e47a56e0f6daec6e65d98))
+* revert adding type: module ([f8d6475](https://github.com/justame/tiptap/commit/f8d6475e2151faea6f96baecdd6bd75880d50d2c))
+
+
+### Features
+
+* add resetAttributes() command, deprecate resetNodeAttributes() ([3334d93](https://github.com/justame/tiptap/commit/3334d930f30bd4acb5c314b4ec1934b6a1e0b712))
+* add updateAttributes() command, deprecate updateNodeAttributes(), fix [#254](https://github.com/justame/tiptap/issues/254) ([aac32b4](https://github.com/justame/tiptap/commit/aac32b4df6a1dfd93500e09d3433fcd8acad5fbe))
+
+
+### Reverts
+
+* Revert "use global namespace" ([0c9ce26](https://github.com/justame/tiptap/commit/0c9ce26c02c07d88a757c01b0a9d7f9e2b0b7502))
+
+
+
+
+
 # [2.0.0-beta.20](https://github.com/ueberdosis/tiptap/compare/@tiptap-es5/extension-text-align@2.0.0-beta.19...@tiptap-es5/extension-text-align@2.0.0-beta.20) (2021-06-18)
 
 ### Bug Fixes

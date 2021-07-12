@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.46 (2021-07-12)
+
+
+### Bug Fixes
+
+* add exports to package.json ([1277fa4](https://github.com/justame/tiptap/commit/1277fa47151e9c039508cdb219bdd0ffe647f4ee))
+* fix editor type for VueRenderer, fix [#281](https://github.com/justame/tiptap/issues/281) ([f6d8776](https://github.com/justame/tiptap/commit/f6d8776ca086bf1f2edc6dc099e33a1f00fdd4c7))
+* fix vue dependency ([73650c1](https://github.com/justame/tiptap/commit/73650c12e0cc7be13705775a02c031e5e36ee4d1))
+* move all child nodes within EditorContent ([0f299d2](https://github.com/justame/tiptap/commit/0f299d228eb4075d24e1c0fb5b39febc6bc77de6))
+* prevent bug when editor is destroyed very fast ([939fc3d](https://github.com/justame/tiptap/commit/939fc3d93ab67d54b7fe67b64c423290b3a40df8))
+* revert adding exports ([bc320d0](https://github.com/justame/tiptap/commit/bc320d0b4b80b0e37a7e47a56e0f6daec6e65d98))
+* revert adding type: module ([f8d6475](https://github.com/justame/tiptap/commit/f8d6475e2151faea6f96baecdd6bd75880d50d2c))
+
+
+### Features
+
+* add deleteNode method to node views ([fcee5f8](https://github.com/justame/tiptap/commit/fcee5f82c6a282191afe5c2cb83b9f5820af28dd))
+* add tippyOptions prop ([9a56f66](https://github.com/justame/tiptap/commit/9a56f666a118ca7c59a6f1f67f40e6490e20d3b8))
+* remove keepInBounds ([d7282f1](https://github.com/justame/tiptap/commit/d7282f168bc6cfae4e1630d14bb8462bc135b254))
+
+
+
+
+
 # [2.0.0-beta.45](https://github.com/ueberdosis/tiptap/compare/@tiptap-es5/vue-3@2.0.0-beta.44...@tiptap-es5/vue-3@2.0.0-beta.45) (2021-06-23)
 
 **Note:** Version bump only for package @tiptap-es5/vue-3

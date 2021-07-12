@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.60 (2021-07-12)
+
+
+### Bug Fixes
+
+* add exports to package.json ([1277fa4](https://github.com/justame/tiptap/commit/1277fa47151e9c039508cdb219bdd0ffe647f4ee))
+* add support for using suggestions at top level, fix [#1340](https://github.com/justame/tiptap/issues/1340) ([0d9e488](https://github.com/justame/tiptap/commit/0d9e48883641d1c4aeeb9c9aa941e2e6419b2e7a))
+* fix type for clientRect ([07c6d51](https://github.com/justame/tiptap/commit/07c6d513388c4538140e0ff37dc9035c9dc6fea3))
+* move @tiptap/core to peerDependency ([a03a01a](https://github.com/justame/tiptap/commit/a03a01ab042f7c655139a08ed547a58d8b1d386f))
+* revert adding exports ([bc320d0](https://github.com/justame/tiptap/commit/bc320d0b4b80b0e37a7e47a56e0f6daec6e65d98))
+* revert adding type: module ([f8d6475](https://github.com/justame/tiptap/commit/f8d6475e2151faea6f96baecdd6bd75880d50d2c))
+
+
+
+
+
 # [2.0.0-beta.59](https://github.com/ueberdosis/tiptap/compare/@tiptap-es5/suggestion@2.0.0-beta.58...@tiptap-es5/suggestion@2.0.0-beta.59) (2021-06-23)
 
 **Note:** Version bump only for package @tiptap-es5/suggestion

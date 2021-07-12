@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.86 (2021-07-12)
+
+
+### Bug Fixes
+
+* add exports to package.json ([1277fa4](https://github.com/justame/tiptap/commit/1277fa47151e9c039508cdb219bdd0ffe647f4ee))
+* improve types for generateHTML ([502b5b1](https://github.com/justame/tiptap/commit/502b5b1cc9f1a8beb49ef2da81a9db56c7e92424))
+* revert adding exports ([bc320d0](https://github.com/justame/tiptap/commit/bc320d0b4b80b0e37a7e47a56e0f6daec6e65d98))
+* revert adding type: module ([f8d6475](https://github.com/justame/tiptap/commit/f8d6475e2151faea6f96baecdd6bd75880d50d2c))
+
+
+
+
+
 # [2.0.0-beta.85](https://github.com/ueberdosis/tiptap/compare/@tiptap-es5/html@2.0.0-beta.84...@tiptap-es5/html@2.0.0-beta.85) (2021-07-09)
 
 **Note:** Version bump only for package @tiptap-es5/html

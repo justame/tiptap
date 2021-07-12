@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.25 (2021-07-12)
+
+
+### Bug Fixes
+
+* add CellSelection support for bubble menu ([6472d2c](https://github.com/justame/tiptap/commit/6472d2c2715bd29a061abae6a59963949c298e55))
+* add exports to package.json ([1277fa4](https://github.com/justame/tiptap/commit/1277fa47151e9c039508cdb219bdd0ffe647f4ee))
+* do not check for node selection within posToDOMRect ([c0e68d5](https://github.com/justame/tiptap/commit/c0e68d5a25608e0b6d9c127bbc507b4ba2a94a61))
+* fix a bug for empty node selection where the bubble menu should not be visible, fix [#1023](https://github.com/justame/tiptap/issues/1023) ([8ed220a](https://github.com/justame/tiptap/commit/8ed220a12de48b3c14e903b271d7f50aff6313f4))
+* fix a bug where bubble menu does not appear when selection starts from empty paragraph node, fix [#1474](https://github.com/justame/tiptap/issues/1474) ([f12b127](https://github.com/justame/tiptap/commit/f12b1273f24984806394e3deb431823a9d00ba79))
+* fix tippy for react ([398fc7f](https://github.com/justame/tiptap/commit/398fc7f210b9d5449cbb00543ddf4af768552b9c))
+* hide bubble menu on drag, fix [#1443](https://github.com/justame/tiptap/issues/1443) ([6034eb9](https://github.com/justame/tiptap/commit/6034eb9b30c3fe01ece9079c84c91ba9c6184518))
+* revert adding exports ([bc320d0](https://github.com/justame/tiptap/commit/bc320d0b4b80b0e37a7e47a56e0f6daec6e65d98))
+* revert adding type: module ([f8d6475](https://github.com/justame/tiptap/commit/f8d6475e2151faea6f96baecdd6bd75880d50d2c))
+* show bubble menu for atom nodes even if there is no text content, fix [#1446](https://github.com/justame/tiptap/issues/1446) ([a3a7650](https://github.com/justame/tiptap/commit/a3a76507844cefc28111b9636c511ad9ef52ad28))
+
+
+### Features
+
+* add coordsAtPos and posToClientRect helper methods ([8dab614](https://github.com/justame/tiptap/commit/8dab6144a661e4c90f33d9d2f300882009eadd46))
+* add tippyOptions prop ([9a56f66](https://github.com/justame/tiptap/commit/9a56f666a118ca7c59a6f1f67f40e6490e20d3b8))
+* remove keepInBounds ([d7282f1](https://github.com/justame/tiptap/commit/d7282f168bc6cfae4e1630d14bb8462bc135b254))
+
+
+
+
+
 # [2.0.0-beta.24](https://github.com/ueberdosis/tiptap/compare/@tiptap-es5/extension-bubble-menu@2.0.0-beta.23...@tiptap-es5/extension-bubble-menu@2.0.0-beta.24) (2021-06-23)
 
 **Note:** Version bump only for package @tiptap-es5/extension-bubble-menu

@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.26 (2021-07-12)
+
+
+### Bug Fixes
+
+* add exports to package.json ([1277fa4](https://github.com/justame/tiptap/commit/1277fa47151e9c039508cdb219bdd0ffe647f4ee))
+* check for empty text, fix [#1292](https://github.com/justame/tiptap/issues/1292) ([456f2b7](https://github.com/justame/tiptap/commit/456f2b702b146cc3f4a156a71cba8354990c02e0))
+* don’t show placeholder if node contains only atom nodes, fix [#1457](https://github.com/justame/tiptap/issues/1457) ([11b4866](https://github.com/justame/tiptap/commit/11b48669482db5122bcd60dc1b65f839e77e5a48))
+* revert adding exports ([bc320d0](https://github.com/justame/tiptap/commit/bc320d0b4b80b0e37a7e47a56e0f6daec6e65d98))
+* revert adding type: module ([f8d6475](https://github.com/justame/tiptap/commit/f8d6475e2151faea6f96baecdd6bd75880d50d2c))
+
+
+
+
+
 # [2.0.0-beta.25](https://github.com/ueberdosis/tiptap/compare/@tiptap-es5/extension-placeholder@2.0.0-beta.24...@tiptap-es5/extension-placeholder@2.0.0-beta.25) (2021-06-23)
 
 **Note:** Version bump only for package @tiptap-es5/extension-placeholder

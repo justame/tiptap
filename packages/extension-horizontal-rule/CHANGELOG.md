@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.18 (2021-07-12)
+
+
+### Bug Fixes
+
+* add exports to package.json ([1277fa4](https://github.com/justame/tiptap/commit/1277fa47151e9c039508cdb219bdd0ffe647f4ee))
+* fix lint error ([d5dd568](https://github.com/justame/tiptap/commit/d5dd568d862fee60c975ec7314615032f0558872))
+* improve handling of horizontal rule at document end, fix [#248](https://github.com/justame/tiptap/issues/248) ([af17f2c](https://github.com/justame/tiptap/commit/af17f2c65794767e4b7ddfd1c1277a567acd898d))
+* revert adding exports ([bc320d0](https://github.com/justame/tiptap/commit/bc320d0b4b80b0e37a7e47a56e0f6daec6e65d98))
+* revert adding type: module ([f8d6475](https://github.com/justame/tiptap/commit/f8d6475e2151faea6f96baecdd6bd75880d50d2c))
+
+
+### Reverts
+
+* Revert "use global namespace" ([0c9ce26](https://github.com/justame/tiptap/commit/0c9ce26c02c07d88a757c01b0a9d7f9e2b0b7502))
+
+
+
+
+
 # [2.0.0-beta.17](https://github.com/ueberdosis/tiptap/compare/@tiptap-es5/extension-horizontal-rule@2.0.0-beta.16...@tiptap-es5/extension-horizontal-rule@2.0.0-beta.17) (2021-06-07)
 
 **Note:** Version bump only for package @tiptap-es5/extension-horizontal-rule

@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.62 (2021-07-12)
+
+
+### Bug Fixes
+
+* add exports to package.json ([1277fa4](https://github.com/justame/tiptap/commit/1277fa47151e9c039508cdb219bdd0ffe647f4ee))
+* Fix parsing of mention nodes ([#1471](https://github.com/justame/tiptap/issues/1471)) ([5178172](https://github.com/justame/tiptap/commit/5178172864e167538698186d56e0aa75df307c98))
+* revert adding exports ([bc320d0](https://github.com/justame/tiptap/commit/bc320d0b4b80b0e37a7e47a56e0f6daec6e65d98))
+* revert adding type: module ([f8d6475](https://github.com/justame/tiptap/commit/f8d6475e2151faea6f96baecdd6bd75880d50d2c))
+
+
+### Features
+
+* add insertContent() command, deprecate insertText(), insertHTML() and insertNode() ([b8d9b7d](https://github.com/justame/tiptap/commit/b8d9b7d4c70b38fb9eec3c079be8243d30166e5e))
+* add label attribute to mention extension ([#1322](https://github.com/justame/tiptap/issues/1322)) ([c3afe88](https://github.com/justame/tiptap/commit/c3afe880ae56e53da429590be4c7e2ffe5a70486))
+* add renderLabel option to mention extension, see [#1322](https://github.com/justame/tiptap/issues/1322) ([3b78af4](https://github.com/justame/tiptap/commit/3b78af44a054fa5d0101d8f7d836409b0b68547e))
+
+
+
+
+
 # [2.0.0-beta.61](https://github.com/ueberdosis/tiptap/compare/@tiptap-es5/extension-mention@2.0.0-beta.60...@tiptap-es5/extension-mention@2.0.0-beta.61) (2021-06-23)
 
 **Note:** Version bump only for package @tiptap-es5/extension-mention

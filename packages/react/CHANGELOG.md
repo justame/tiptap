@@ -3,6 +3,37 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-beta.53 (2021-07-12)
+
+
+### Bug Fixes
+
+* add exports to package.json ([1277fa4](https://github.com/justame/tiptap/commit/1277fa47151e9c039508cdb219bdd0ffe647f4ee))
+* add prop support for EditorContent, fix [#1332](https://github.com/justame/tiptap/issues/1332) ([8979143](https://github.com/justame/tiptap/commit/8979143c37679af21e71b37b72ac91bea989746c))
+* allow passing props to NodeViewWrapper and NodeViewContent ([cfb3b80](https://github.com/justame/tiptap/commit/cfb3b80f63a5d38ea7aa4b69a895afd8b09cb5ab))
+* check for destroyed editor before creating node views in react ([44e4722](https://github.com/justame/tiptap/commit/44e47222a03be60835d5058d01bc510e4cf31d60))
+* fix using react node views with insertContent ([ea0992f](https://github.com/justame/tiptap/commit/ea0992f66e9942c590e75c0ab2f5705640764f4d))
+* improve node view error message ([536663f](https://github.com/justame/tiptap/commit/536663f816039df6e3d8de23989f343d78e5d08e))
+* make `as` prop optional ([f8dec5f](https://github.com/justame/tiptap/commit/f8dec5f905baf5692dd257b3dddec3de2bcad1a1))
+* maybe move content dom on update, fix [#1370](https://github.com/justame/tiptap/issues/1370) ([78f75c3](https://github.com/justame/tiptap/commit/78f75c3e0e287abac18bf87f32a1bd586300da14))
+* maybe move content dom on update, see [#1370](https://github.com/justame/tiptap/issues/1370) ([60708a7](https://github.com/justame/tiptap/commit/60708a781770d745f0d9135c225f56d3d2f1b31d))
+* move all child nodes within EditorContent ([0f299d2](https://github.com/justame/tiptap/commit/0f299d228eb4075d24e1c0fb5b39febc6bc77de6))
+* prevents a bug where a line break was incorrectly added at enter in react node views, fix [#1197](https://github.com/justame/tiptap/issues/1197) ([e885ffa](https://github.com/justame/tiptap/commit/e885ffa15b590b0c1f895f5c32f4852cc483c222))
+* revert adding exports ([bc320d0](https://github.com/justame/tiptap/commit/bc320d0b4b80b0e37a7e47a56e0f6daec6e65d98))
+* revert adding type: module ([f8d6475](https://github.com/justame/tiptap/commit/f8d6475e2151faea6f96baecdd6bd75880d50d2c))
+
+
+### Features
+
+* add deleteNode method to node views ([fcee5f8](https://github.com/justame/tiptap/commit/fcee5f82c6a282191afe5c2cb83b9f5820af28dd))
+* add tippyOptions prop ([9a56f66](https://github.com/justame/tiptap/commit/9a56f666a118ca7c59a6f1f67f40e6490e20d3b8))
+* remove keepInBounds ([d7282f1](https://github.com/justame/tiptap/commit/d7282f168bc6cfae4e1630d14bb8462bc135b254))
+* render wrapper element for inline node views as span, fix [#242](https://github.com/justame/tiptap/issues/242) ([bdb5d72](https://github.com/justame/tiptap/commit/bdb5d724956c0c757e29be38fb2c9dd85d8fd36b))
+
+
+
+
+
 # [2.0.0-beta.52](https://github.com/ueberdosis/tiptap/compare/@tiptap-es5/react@2.0.0-beta.51...@tiptap-es5/react@2.0.0-beta.52) (2021-06-24)
 
 ### Bug Fixes
