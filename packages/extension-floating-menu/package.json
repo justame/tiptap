@@ -1,13 +1,16 @@
 {
   "name": "@tiptap-es5/extension-floating-menu",
   "description": "floating-menu extension for tiptap",
-  "version": "2.0.0-beta.26",
+  "version": "2.0.0-beta.27",
   "homepage": "https://tiptap.dev",
   "keywords": [
     "tiptap",
     "tiptap extension"
   ],
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/ueberdosis"
@@ -28,5 +31,5 @@
     "prosemirror-view": "^1.18.8",
     "tippy.js": "^6.3.1"
   },
-  "gitHead": "727e8700ada19361eba7e21444cb60663b3a0e52"
+  "gitHead": "4fc3e9be7f06e37b2d3eff8ba3c19be159c78865"
 }

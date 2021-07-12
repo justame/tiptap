@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.41](https://github.com/justame/tiptap/compare/@tiptap-es5/extension-code-block-lowlight@2.0.0-beta.40...@tiptap-es5/extension-code-block-lowlight@2.0.0-beta.41) (2021-07-12)
+
+**Note:** Version bump only for package @tiptap-es5/extension-code-block-lowlight
+
+
+
+
+
 # [2.0.0-beta.40](https://github.com/justame/tiptap/compare/@tiptap-es5/extension-code-block-lowlight@2.0.0-beta.39...@tiptap-es5/extension-code-block-lowlight@2.0.0-beta.40) (2021-07-12)
 
 **Note:** Version bump only for package @tiptap-es5/extension-code-block-lowlight

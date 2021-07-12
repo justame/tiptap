@@ -1,13 +1,16 @@
 {
   "name": "@tiptap-es5/extension-blockquote",
   "description": "blockquote extension for tiptap",
-  "version": "2.0.0-beta.22",
+  "version": "2.0.0-beta.23",
   "homepage": "https://tiptap.dev",
   "keywords": [
     "tiptap",
     "tiptap extension"
   ],
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/ueberdosis"
@@ -23,11 +26,8 @@
   "peerDependencies": {
     "@tiptap-es5/core": "^2.0.0-beta.1"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "dependencies": {
     "prosemirror-inputrules": "^1.1.3"
   },
-  "gitHead": "0a28fcbfdb7a0c03da9cc6825333b2fa660b7ffa"
+  "gitHead": "4fc3e9be7f06e37b2d3eff8ba3c19be159c78865"
 }

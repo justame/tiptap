@@ -1,13 +1,16 @@
 {
   "name": "@tiptap-es5/extension-mention",
   "description": "mention extension for tiptap",
-  "version": "2.0.0-beta.69",
+  "version": "2.0.0-beta.70",
   "homepage": "https://tiptap.dev",
   "keywords": [
     "tiptap",
     "tiptap extension"
   ],
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/ueberdosis"
@@ -24,7 +27,7 @@
     "@tiptap-es5/core": "^2.0.0-beta.1"
   },
   "dependencies": {
-    "@tiptap-es5/suggestion": "^2.0.0-beta.67"
+    "@tiptap-es5/suggestion": "^2.0.0-beta.68"
   },
-  "gitHead": "727e8700ada19361eba7e21444cb60663b3a0e52"
+  "gitHead": "4fc3e9be7f06e37b2d3eff8ba3c19be159c78865"
 }

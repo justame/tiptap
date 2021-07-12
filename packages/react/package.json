@@ -1,13 +1,16 @@
 {
   "name": "@tiptap-es5/react",
   "description": "React components for tiptap",
-  "version": "2.0.0-beta.60",
+  "version": "2.0.0-beta.61",
   "homepage": "https://tiptap.dev",
   "keywords": [
     "tiptap",
     "tiptap react components"
   ],
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/ueberdosis"
@@ -26,13 +29,13 @@
     "react-dom": "^17.0.1"
   },
   "dependencies": {
-    "@tiptap-es5/extension-bubble-menu": "^2.0.0-beta.32",
-    "@tiptap-es5/extension-floating-menu": "^2.0.0-beta.26",
+    "@tiptap-es5/extension-bubble-menu": "^2.0.0-beta.33",
+    "@tiptap-es5/extension-floating-menu": "^2.0.0-beta.27",
     "prosemirror-view": "^1.18.8"
   },
   "devDependencies": {
     "@types/react": "^17.0.11",
     "@types/react-dom": "^17.0.7"
   },
-  "gitHead": "727e8700ada19361eba7e21444cb60663b3a0e52"
+  "gitHead": "4fc3e9be7f06e37b2d3eff8ba3c19be159c78865"
 }
