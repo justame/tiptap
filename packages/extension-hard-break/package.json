@@ -1,7 +1,7 @@
 {
   "name": "@tiptap-es5/extension-hard-break",
   "description": "hard break extension for tiptap",
-  "version": "2.0.0-beta.16",
+  "version": "2.0.0-beta.17",
   "homepage": "https://tiptap.dev",
   "keywords": [
     "tiptap",
@@ -22,5 +22,6 @@
   ],
   "peerDependencies": {
     "@tiptap-es5/core": "^2.0.0-beta.1"
-  }
+  },
+  "gitHead": "e6dc055b54d3fe7adc4981bfb423be873834ff64"
 }

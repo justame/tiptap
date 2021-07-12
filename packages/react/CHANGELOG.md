@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.55](https://github.com/justame/tiptap/compare/@tiptap-es5/react@2.0.0-beta.54...@tiptap-es5/react@2.0.0-beta.55) (2021-07-12)
+
+**Note:** Version bump only for package @tiptap-es5/react
+
+
+
+
+
 # [2.0.0-beta.54](https://github.com/justame/tiptap/compare/@tiptap-es5/react@2.0.0-beta.53...@tiptap-es5/react@2.0.0-beta.54) (2021-07-12)
 
 **Note:** Version bump only for package @tiptap-es5/react

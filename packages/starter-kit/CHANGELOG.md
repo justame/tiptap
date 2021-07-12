@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.85](https://github.com/justame/tiptap/compare/@tiptap-es5/starter-kit@2.0.0-beta.84...@tiptap-es5/starter-kit@2.0.0-beta.85) (2021-07-12)
+
+**Note:** Version bump only for package @tiptap-es5/starter-kit
+
+
+
+
+
 # [2.0.0-beta.84](https://github.com/justame/tiptap/compare/@tiptap-es5/starter-kit@2.0.0-beta.83...@tiptap-es5/starter-kit@2.0.0-beta.84) (2021-07-12)
 
 **Note:** Version bump only for package @tiptap-es5/starter-kit
