@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.29](https://github.com/justame/tiptap/compare/@tiptap-es5/extension-bubble-menu@2.0.0-beta.28...@tiptap-es5/extension-bubble-menu@2.0.0-beta.29) (2021-07-12)
+
+**Note:** Version bump only for package @tiptap-es5/extension-bubble-menu
+
+
+
+
+
 # [2.0.0-beta.28](https://github.com/justame/tiptap/compare/@tiptap-es5/extension-bubble-menu@2.0.0-beta.27...@tiptap-es5/extension-bubble-menu@2.0.0-beta.28) (2021-07-12)
 
 **Note:** Version bump only for package @tiptap-es5/extension-bubble-menu

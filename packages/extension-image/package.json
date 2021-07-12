@@ -1,7 +1,7 @@
 {
   "name": "@tiptap-es5/extension-image",
   "description": "image extension for tiptap",
-  "version": "2.0.0-beta.18",
+  "version": "2.0.0-beta.19",
   "homepage": "https://tiptap.dev",
   "keywords": [
     "tiptap",
@@ -23,5 +23,5 @@
   "peerDependencies": {
     "@tiptap-es5/core": "^2.0.0-beta.1"
   },
-  "gitHead": "d7dcf56b367dfe1d96c8bb3d795715056d267bc0"
+  "gitHead": "94caedbb071c561b23fb7175257aef192f451cc0"
 }
