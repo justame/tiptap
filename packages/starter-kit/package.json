@@ -1,7 +1,7 @@
 {
   "name": "@tiptap-es5/starter-kit",
   "description": "starter kit for tiptap",
-  "version": "2.0.0-beta.83",
+  "version": "2.0.0-beta.84",
   "homepage": "https://tiptap.dev",
   "keywords": [
     "tiptap",
@@ -21,24 +21,24 @@
     "dist"
   ],
   "dependencies": {
-    "@tiptap-es5/core": "^2.0.0-beta.87",
-    "@tiptap-es5/extension-blockquote": "^2.0.0-beta.15",
-    "@tiptap-es5/extension-bold": "^2.0.0-beta.15",
-    "@tiptap-es5/extension-bullet-list": "^2.0.0-beta.15",
-    "@tiptap-es5/extension-code": "^2.0.0-beta.15",
-    "@tiptap-es5/extension-code-block": "^2.0.0-beta.17",
-    "@tiptap-es5/extension-document": "^2.0.0-beta.13",
-    "@tiptap-es5/extension-dropcursor": "^2.0.0-beta.18",
-    "@tiptap-es5/extension-gapcursor": "^2.0.0-beta.19",
-    "@tiptap-es5/extension-hard-break": "^2.0.0-beta.15",
-    "@tiptap-es5/extension-heading": "^2.0.0-beta.15",
-    "@tiptap-es5/extension-history": "^2.0.0-beta.15",
-    "@tiptap-es5/extension-horizontal-rule": "^2.0.0-beta.18",
-    "@tiptap-es5/extension-italic": "^2.0.0-beta.15",
-    "@tiptap-es5/extension-list-item": "^2.0.0-beta.14",
-    "@tiptap-es5/extension-ordered-list": "^2.0.0-beta.15",
-    "@tiptap-es5/extension-paragraph": "^2.0.0-beta.16",
-    "@tiptap-es5/extension-strike": "^2.0.0-beta.17",
-    "@tiptap-es5/extension-text": "^2.0.0-beta.13"
+    "@tiptap-es5/core": "^2.0.0-beta.88",
+    "@tiptap-es5/extension-blockquote": "^2.0.0-beta.16",
+    "@tiptap-es5/extension-bold": "^2.0.0-beta.16",
+    "@tiptap-es5/extension-bullet-list": "^2.0.0-beta.16",
+    "@tiptap-es5/extension-code": "^2.0.0-beta.16",
+    "@tiptap-es5/extension-code-block": "^2.0.0-beta.18",
+    "@tiptap-es5/extension-document": "^2.0.0-beta.14",
+    "@tiptap-es5/extension-dropcursor": "^2.0.0-beta.19",
+    "@tiptap-es5/extension-gapcursor": "^2.0.0-beta.20",
+    "@tiptap-es5/extension-hard-break": "^2.0.0-beta.16",
+    "@tiptap-es5/extension-heading": "^2.0.0-beta.16",
+    "@tiptap-es5/extension-history": "^2.0.0-beta.16",
+    "@tiptap-es5/extension-horizontal-rule": "^2.0.0-beta.19",
+    "@tiptap-es5/extension-italic": "^2.0.0-beta.16",
+    "@tiptap-es5/extension-list-item": "^2.0.0-beta.15",
+    "@tiptap-es5/extension-ordered-list": "^2.0.0-beta.16",
+    "@tiptap-es5/extension-paragraph": "^2.0.0-beta.17",
+    "@tiptap-es5/extension-strike": "^2.0.0-beta.18",
+    "@tiptap-es5/extension-text": "^2.0.0-beta.14"
   }
 }
