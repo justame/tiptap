@@ -1,7 +1,7 @@
 {
   "name": "@tiptap-es5/extension-bubble-menu",
   "description": "bubble-menu extension for tiptap",
-  "version": "2.0.0-beta.27",
+  "version": "2.0.0-beta.28",
   "homepage": "https://tiptap.dev",
   "keywords": [
     "tiptap",
@@ -28,5 +28,5 @@
     "prosemirror-view": "^1.18.8",
     "tippy.js": "^6.3.1"
   },
-  "gitHead": "e6dc055b54d3fe7adc4981bfb423be873834ff64"
+  "gitHead": "d7dcf56b367dfe1d96c8bb3d795715056d267bc0"
 }

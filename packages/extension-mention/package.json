@@ -1,7 +1,7 @@
 {
   "name": "@tiptap-es5/extension-mention",
   "description": "mention extension for tiptap",
-  "version": "2.0.0-beta.64",
+  "version": "2.0.0-beta.65",
   "homepage": "https://tiptap.dev",
   "keywords": [
     "tiptap",
@@ -24,7 +24,7 @@
     "@tiptap-es5/core": "^2.0.0-beta.1"
   },
   "dependencies": {
-    "@tiptap-es5/suggestion": "^2.0.0-beta.62"
+    "@tiptap-es5/suggestion": "^2.0.0-beta.63"
   },
-  "gitHead": "e6dc055b54d3fe7adc4981bfb423be873834ff64"
+  "gitHead": "d7dcf56b367dfe1d96c8bb3d795715056d267bc0"
 }

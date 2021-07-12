@@ -1,7 +1,7 @@
 {
   "name": "@tiptap-es5/html",
   "description": "utility package to render tiptap JSON as HTML",
-  "version": "2.0.0-beta.88",
+  "version": "2.0.0-beta.89",
   "homepage": "https://tiptap.dev",
   "keywords": [
     "tiptap",
@@ -21,9 +21,9 @@
     "dist"
   ],
   "dependencies": {
-    "@tiptap-es5/core": "^2.0.0-beta.89",
+    "@tiptap-es5/core": "^2.0.0-beta.90",
     "hostic-dom": "^0.8.6",
     "prosemirror-model": "^1.14.2"
   },
-  "gitHead": "e6dc055b54d3fe7adc4981bfb423be873834ff64"
+  "gitHead": "d7dcf56b367dfe1d96c8bb3d795715056d267bc0"
 }

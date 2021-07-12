@@ -1,7 +1,7 @@
 {
   "name": "@tiptap-es5/extension-history",
   "description": "history extension for tiptap",
-  "version": "2.0.0-beta.17",
+  "version": "2.0.0-beta.18",
   "homepage": "https://tiptap.dev",
   "keywords": [
     "tiptap",
@@ -27,5 +27,5 @@
     "@types/prosemirror-history": "^1.0.3",
     "prosemirror-history": "^1.1.3"
   },
-  "gitHead": "e6dc055b54d3fe7adc4981bfb423be873834ff64"
+  "gitHead": "d7dcf56b367dfe1d96c8bb3d795715056d267bc0"
 }

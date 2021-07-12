@@ -1,7 +1,7 @@
 {
   "name": "@tiptap-es5/core",
   "description": "headless rich text editor",
-  "version": "2.0.0-beta.89",
+  "version": "2.0.0-beta.90",
   "homepage": "https://tiptap.dev",
   "keywords": [
     "tiptap",
@@ -40,5 +40,5 @@
     "prosemirror-transform": "^1.3.2",
     "prosemirror-view": "^1.18.8"
   },
-  "gitHead": "e6dc055b54d3fe7adc4981bfb423be873834ff64"
+  "gitHead": "d7dcf56b367dfe1d96c8bb3d795715056d267bc0"
 }
