@@ -1,9 +1,12 @@
 {
-  "private": true,
+  "private": false,
   "workspaces": [
     "docs",
     "packages/*"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "browserslist": [
     "defaults",
     "not IE 11",

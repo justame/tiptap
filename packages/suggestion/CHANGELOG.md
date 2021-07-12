@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.67](https://github.com/justame/tiptap/compare/@tiptap-es5/suggestion@2.0.0-beta.66...@tiptap-es5/suggestion@2.0.0-beta.67) (2021-07-12)
+
+**Note:** Version bump only for package @tiptap-es5/suggestion
+
+
+
+
+
 # [2.0.0-beta.66](https://github.com/justame/tiptap/compare/@tiptap-es5/suggestion@2.0.0-beta.65...@tiptap-es5/suggestion@2.0.0-beta.66) (2021-07-12)
 
 **Note:** Version bump only for package @tiptap-es5/suggestion
