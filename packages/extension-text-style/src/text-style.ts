@@ -2,13 +2,13 @@ import {
   Mark,
   getMarkAttributes,
   mergeAttributes,
-} from '@tiptap/core'
+} from '@tiptap-es5/core'
 
 export interface TextStyleOptions {
   HTMLAttributes: Record<string, any>,
 }
 
-declare module '@tiptap/core' {
+declare module '@tiptap-es5/core' {
   interface Commands<ReturnType> {
     textStyle: {
       /**

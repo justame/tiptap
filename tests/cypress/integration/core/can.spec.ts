@@ -1,10 +1,10 @@
 /// <reference types="cypress" />
 
-import { Editor } from '@tiptap/core'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import History from '@tiptap/extension-history'
+import { Editor } from '@tiptap-es5/core'
+import Document from '@tiptap-es5/extension-document'
+import Paragraph from '@tiptap-es5/extension-paragraph'
+import Text from '@tiptap-es5/extension-text'
+import History from '@tiptap-es5/extension-history'
 
 describe('can', () => {
   it('not undo', () => {

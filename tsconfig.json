@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es2019",
+    "target": "ES5",
     "module": "esnext",
     "strict": true,
     "jsx": "react",
@@ -14,8 +14,9 @@
     "rootDir": ".",
     "allowJs": false,
     "checkJs": false,
+    "downlevelIteration": true,
     "paths": {
-      "@tiptap/*": ["packages/*/dist", "packages/*/src"]
+      "@tiptap-es5/*": ["packages/*/dist", "packages/*/src"]
     },
     "lib": [
       "esnext",

@@ -1,4 +1,4 @@
-import { Extension } from '@tiptap/core'
+import { Extension } from '@tiptap-es5/core'
 import { Plugin, PluginKey } from 'prosemirror-state'
 import { DecorationSet, Decoration } from 'prosemirror-view'
 

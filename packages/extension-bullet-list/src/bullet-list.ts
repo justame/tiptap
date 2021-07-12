@@ -1,11 +1,11 @@
-import { Node, mergeAttributes } from '@tiptap/core'
+import { Node, mergeAttributes } from '@tiptap-es5/core'
 import { wrappingInputRule } from 'prosemirror-inputrules'
 
 export interface BulletListOptions {
   HTMLAttributes: Record<string, any>,
 }
 
-declare module '@tiptap/core' {
+declare module '@tiptap-es5/core' {
   interface Commands<ReturnType> {
     bulletList: {
       /**

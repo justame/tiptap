@@ -1,4 +1,4 @@
-import { Extension } from '@tiptap/core'
+import { Extension } from '@tiptap-es5/core'
 import { UndoManager } from 'yjs'
 import {
   redo,
@@ -8,7 +8,7 @@ import {
   yUndoPluginKey,
 } from 'y-prosemirror'
 
-declare module '@tiptap/core' {
+declare module '@tiptap-es5/core' {
   interface Commands<ReturnType> {
     collaboration: {
       /**
@@ -49,7 +49,7 @@ export const Collaboration = Extension.create<CollaborationOptions>({
 
   onCreate() {
     if (this.editor.extensionManager.extensions.find(extension => extension.name === 'history')) {
-      console.warn('[tiptap warn]: "@tiptap/extension-collaboration" comes with its own history support and is not compatible with "@tiptap/extension-history".')
+      console.warn('[tiptap warn]: "@tiptap-es5/extension-collaboration" comes with its own history support and is not compatible with "@tiptap-es5/extension-history".')
     }
   },
 

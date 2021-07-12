@@ -1,4 +1,4 @@
-import { Editor } from '@tiptap/core'
+import { Editor } from '@tiptap-es5/core'
 import { Plugin, PluginKey } from 'prosemirror-state'
 import { Extension } from '../Extension'
 

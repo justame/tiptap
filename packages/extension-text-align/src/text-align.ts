@@ -1,4 +1,4 @@
-import { Extension } from '@tiptap/core'
+import { Extension } from '@tiptap-es5/core'
 
 type TextAlignOptions = {
   types: string[],
@@ -6,7 +6,7 @@ type TextAlignOptions = {
   defaultAlignment: string,
 }
 
-declare module '@tiptap/core' {
+declare module '@tiptap-es5/core' {
   interface Commands<ReturnType> {
     textAlign: {
       /**

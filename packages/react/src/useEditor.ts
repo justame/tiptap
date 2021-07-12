@@ -1,5 +1,5 @@
 import { useState, useEffect, DependencyList } from 'react'
-import { EditorOptions } from '@tiptap/core'
+import { EditorOptions } from '@tiptap-es5/core'
 import { Editor } from './Editor'
 
 function useForceUpdate() {

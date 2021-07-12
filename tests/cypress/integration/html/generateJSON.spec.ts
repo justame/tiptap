@@ -1,9 +1,9 @@
 /// <reference types="cypress" />
 
-import { generateJSON } from '@tiptap/html'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
+import { generateJSON } from '@tiptap-es5/html'
+import Document from '@tiptap-es5/extension-document'
+import Paragraph from '@tiptap-es5/extension-paragraph'
+import Text from '@tiptap-es5/extension-text'
 
 describe('generateJSON', () => {
   it('generate JSON from HTML without an editor instance', () => {

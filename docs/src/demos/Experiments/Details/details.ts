@@ -1,4 +1,4 @@
-import { Node, mergeAttributes } from '@tiptap/core'
+import { Node, mergeAttributes } from '@tiptap-es5/core'
 
 export interface DetailsOptions {
   HTMLAttributes: {
@@ -6,7 +6,7 @@ export interface DetailsOptions {
   },
 }
 
-declare module '@tiptap/core' {
+declare module '@tiptap-es5/core' {
   interface Commands<ReturnType> {
     details: {
       /**

@@ -1,5 +1,5 @@
 import Vue, { Component, PropType } from 'vue'
-import { BubbleMenuPlugin, BubbleMenuPluginKey, BubbleMenuPluginProps } from '@tiptap/extension-bubble-menu'
+import { BubbleMenuPlugin, BubbleMenuPluginKey, BubbleMenuPluginProps } from '@tiptap-es5/extension-bubble-menu'
 
 export interface BubbleMenuInterface extends Vue {
   tippyOptions: BubbleMenuPluginProps['tippyOptions'],

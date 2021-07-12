@@ -3,7 +3,7 @@ import {
   NodeViewProps,
   NodeViewRenderer,
   NodeViewRendererProps,
-} from '@tiptap/core'
+} from '@tiptap-es5/core'
 import {
   ref,
   Ref,

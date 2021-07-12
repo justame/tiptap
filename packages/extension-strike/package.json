@@ -1,5 +1,5 @@
 {
-  "name": "@tiptap/extension-strike",
+  "name": "@tiptap-es5/extension-strike",
   "description": "strike extension for tiptap",
   "version": "2.0.0-beta.16",
   "homepage": "https://tiptap.dev",
@@ -21,6 +21,6 @@
     "dist"
   ],
   "peerDependencies": {
-    "@tiptap/core": "^2.0.0-beta.1"
+    "@tiptap-es5/core": "^2.0.0-beta.1"
   }
 }

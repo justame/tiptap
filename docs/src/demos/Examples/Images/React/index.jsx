@@ -1,10 +1,10 @@
 import React from 'react'
-import { useEditor, EditorContent } from '@tiptap/react'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import Image from '@tiptap/extension-image'
-import Dropcursor from '@tiptap/extension-dropcursor'
+import { useEditor, EditorContent } from '@tiptap-es5/react'
+import Document from '@tiptap-es5/extension-document'
+import Paragraph from '@tiptap-es5/extension-paragraph'
+import Text from '@tiptap-es5/extension-text'
+import Image from '@tiptap-es5/extension-image'
+import Dropcursor from '@tiptap-es5/extension-dropcursor'
 import './styles.scss'
 
 export default () => {

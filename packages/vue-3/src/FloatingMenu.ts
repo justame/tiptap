@@ -10,7 +10,7 @@ import {
   FloatingMenuPlugin,
   FloatingMenuPluginKey,
   FloatingMenuPluginProps,
-} from '@tiptap/extension-floating-menu'
+} from '@tiptap-es5/extension-floating-menu'
 
 export const FloatingMenu = defineComponent({
   name: 'FloatingMenu',

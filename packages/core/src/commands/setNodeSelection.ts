@@ -2,7 +2,7 @@ import { NodeSelection } from 'prosemirror-state'
 import minMax from '../utilities/minMax'
 import { RawCommands } from '../types'
 
-declare module '@tiptap/core' {
+declare module '@tiptap-es5/core' {
   interface Commands<ReturnType> {
     setNodeSelection: {
       /**

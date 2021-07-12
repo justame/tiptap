@@ -5,11 +5,11 @@
 </template>
 
 <script>
-import { Editor, EditorContent } from '@tiptap/vue-2'
-import Document from '@tiptap/extension-document'
-import Text from '@tiptap/extension-text'
-import Paragraph from '@tiptap/extension-paragraph'
-import Heading from '@tiptap/extension-heading'
+import { Editor, EditorContent } from '@tiptap-es5/vue-2'
+import Document from '@tiptap-es5/extension-document'
+import Text from '@tiptap-es5/extension-text'
+import Paragraph from '@tiptap-es5/extension-paragraph'
+import Heading from '@tiptap-es5/extension-heading'
 import Linter, { BadWords, Punctuation, HeadingLevel } from './extension'
 
 export default {

@@ -5,8 +5,8 @@
 </template>
 
 <script>
-import { Editor, EditorContent } from '@tiptap/vue-2'
-import StarterKit from '@tiptap/starter-kit'
+import { Editor, EditorContent } from '@tiptap-es5/vue-2'
+import StarterKit from '@tiptap-es5/starter-kit'
 import DragHandle from './DragHandle.js'
 
 export default {

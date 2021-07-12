@@ -44,8 +44,8 @@ import {
   EditorContent,
   BubbleMenu,
   FloatingMenu,
-} from '@tiptap/vue-2'
-import StarterKit from '@tiptap/starter-kit'
+} from '@tiptap-es5/vue-2'
+import StarterKit from '@tiptap-es5/starter-kit'
 
 export default {
   components: {

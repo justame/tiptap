@@ -1,11 +1,11 @@
-import { Extension } from '@tiptap/core'
-import '@tiptap/extension-text-style'
+import { Extension } from '@tiptap-es5/core'
+import '@tiptap-es5/extension-text-style'
 
 type FontColorOptions = {
   types: string[],
 }
 
-declare module '@tiptap/core' {
+declare module '@tiptap-es5/core' {
   interface Commands<ReturnType> {
     fontColor: {
       /**

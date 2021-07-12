@@ -4,8 +4,8 @@ import {
   EditorContent,
   BubbleMenu,
   FloatingMenu,
-} from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
+} from '@tiptap-es5/react'
+import StarterKit from '@tiptap-es5/starter-kit'
 import './styles.scss'
 
 export default () => {

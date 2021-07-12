@@ -1,5 +1,5 @@
 import * as Y from 'yjs'
-import { Extension } from '@tiptap/core'
+import { Extension } from '@tiptap-es5/core'
 import { AnnotationPlugin, AnnotationPluginKey } from './AnnotationPlugin'
 
 export interface AddAnnotationAction {
@@ -49,7 +49,7 @@ function getMapFromOptions(options: AnnotationOptions): Y.Map<any> {
     : options.document?.getMap(options.field) as Y.Map<any>
 }
 
-declare module '@tiptap/core' {
+declare module '@tiptap-es5/core' {
   interface Commands<ReturnType> {
     annotation: {
       addAnnotation: (data: any) => ReturnType,

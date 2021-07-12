@@ -1,4 +1,4 @@
-import { Extension } from '@tiptap/core'
+import { Extension } from '@tiptap-es5/core'
 import {
   emDash,
   ellipsis,

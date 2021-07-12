@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-import { pasteRegex } from '@tiptap/extension-link'
+import { pasteRegex } from '@tiptap-es5/extension-link'
 
 describe('link paste rules', () => {
   const validUrls = [

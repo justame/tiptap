@@ -1,27 +1,27 @@
-import { Node, mergeAttributes } from '@tiptap/core'
-import { VueNodeViewRenderer } from '@tiptap/vue-2'
-import Component from './Component.vue'
+import { Node, mergeAttributes } from "@tiptap-es5/core";
+import { VueNodeViewRenderer } from "@tiptap-es5/vue-2";
+import Component from "./Component.vue";
 
 export default Node.create({
-  name: 'vueComponent',
+  name: "vueComponent",
 
-  group: 'block',
+  group: "block",
 
-  content: 'inline*',
+  content: "inline*",
 
   parseHTML() {
     return [
       {
-        tag: 'vue-component',
-      },
-    ]
+        tag: "vue-component"
+      }
+    ];
   },
 
   renderHTML({ HTMLAttributes }) {
-    return ['vue-component', mergeAttributes(HTMLAttributes), 0]
+    return ["vue-component", mergeAttributes(HTMLAttributes), 0];
   },
 
   addNodeView() {
-    return VueNodeViewRenderer(Component)
-  },
-})
+    return VueNodeViewRenderer(Component);
+  }
+});

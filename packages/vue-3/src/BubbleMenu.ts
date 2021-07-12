@@ -10,7 +10,7 @@ import {
   BubbleMenuPlugin,
   BubbleMenuPluginKey,
   BubbleMenuPluginProps,
-} from '@tiptap/extension-bubble-menu'
+} from '@tiptap-es5/extension-bubble-menu'
 
 export const BubbleMenu = defineComponent({
   name: 'BubbleMenu',

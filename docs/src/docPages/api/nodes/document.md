@@ -1,6 +1,7 @@
 # Document
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-document.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-document)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-document.svg)](https://npmcharts.com/compare/@tiptap/extension-document?minimal=true)
+
+[![Version](https://img.shields.io/npm/v/@tiptap-es5/extension-document.svg?label=version)](https://www.npmjs.com/package/@tiptap-es5/extension-document)
+[![Downloads](https://img.shields.io/npm/dm/@tiptap-es5/extension-document.svg)](https://npmcharts.com/compare/@tiptap-es5/extension-document?minimal=true)
 
 **The `Document` extension is required**, no matter what you build with tiptap. It’s a so called “topNode”, a node that’s the home to all other nodes. Think of it like the `<body>` tag for your document.
 
@@ -11,16 +12,19 @@ tiptap 1 tried to hide that node from you, but it has always been there. You hav
 :::
 
 ## Installation
+
 ```bash
 # with npm
-npm install @tiptap/extension-document
+npm install @tiptap-es5/extension-document
 
 # with Yarn
-yarn add @tiptap/extension-document
+yarn add @tiptap-es5/extension-document
 ```
 
 ## Source code
+
 [packages/extension-document/](https://github.com/ueberdosis/tiptap/blob/main/packages/extension-document/)
 
 ## Usage
+
 <demo name="Nodes/Document" highlight="10,28" />

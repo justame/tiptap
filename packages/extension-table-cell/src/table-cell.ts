@@ -1,4 +1,4 @@
-import { Node, mergeAttributes } from '@tiptap/core'
+import { Node, mergeAttributes } from '@tiptap-es5/core'
 
 export interface TableCellOptions {
   HTMLAttributes: Record<string, any>,

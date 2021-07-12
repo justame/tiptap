@@ -4,7 +4,7 @@ import {
   NodeViewProps,
   NodeViewRenderer,
   NodeViewRendererProps,
-} from '@tiptap/core'
+} from '@tiptap-es5/core'
 import { Decoration, NodeView as ProseMirrorNodeView } from 'prosemirror-view'
 import { Node as ProseMirrorNode } from 'prosemirror-model'
 import { Editor } from './Editor'

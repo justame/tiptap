@@ -32,13 +32,13 @@
 </template>
 
 <script>
-import { Editor, EditorContent } from '@tiptap/vue-2'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import Collaboration from '@tiptap/extension-collaboration'
-import Bold from '@tiptap/extension-bold'
-import Heading from '@tiptap/extension-heading'
+import { Editor, EditorContent } from '@tiptap-es5/vue-2'
+import Document from '@tiptap-es5/extension-document'
+import Paragraph from '@tiptap-es5/extension-paragraph'
+import Text from '@tiptap-es5/extension-text'
+import Collaboration from '@tiptap-es5/extension-collaboration'
+import Bold from '@tiptap-es5/extension-bold'
+import Heading from '@tiptap-es5/extension-heading'
 import * as Y from 'yjs'
 import CollaborationAnnotation from './extension'
 

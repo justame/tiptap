@@ -1,6 +1,7 @@
 # CodeBlock
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-code-block.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-code-block)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-code-block.svg)](https://npmcharts.com/compare/@tiptap/extension-code-block?minimal=true)
+
+[![Version](https://img.shields.io/npm/v/@tiptap-es5/extension-code-block.svg?label=version)](https://www.npmjs.com/package/@tiptap-es5/extension-code-block)
+[![Downloads](https://img.shields.io/npm/dm/@tiptap-es5/extension-code-block.svg)](https://npmcharts.com/compare/@tiptap-es5/extension-code-block?minimal=true)
 
 With the CodeBlock extension you can add fenced code blocks to your documents. It’ll wrap the code in `<pre>` and `<code>` HTML tags.
 
@@ -11,31 +12,37 @@ The CodeBlock extension doesn’t come with styling and has no syntax highlighti
 :::
 
 ## Installation
+
 ```bash
 # with npm
-npm install @tiptap/extension-code-block
+npm install @tiptap-es5/extension-code-block
 
 # with Yarn
-yarn add @tiptap/extension-code-block
+yarn add @tiptap-es5/extension-code-block
 ```
 
 ## Settings
+
 | Option              | Type     | Default       | Description                                                           |
 | ------------------- | -------- | ------------- | --------------------------------------------------------------------- |
 | HTMLAttributes      | `Object` | `{}`          | Custom HTML attributes that should be added to the rendered HTML tag. |
 | languageClassPrefix | `String` | `'language-'` | Adds a prefix to language classes that are applied to code tags.      |
 
 ## Commands
+
 | Command   | Parameters | Description                   |
 | --------- | ---------- | ----------------------------- |
 | codeBlock | —          | Wrap content in a code block. |
 
 ## Keyboard shortcuts
-* Windows/Linux: `Control`&nbsp;`Alt`&nbsp;`C`
-* macOS: `Cmd`&nbsp;`Alt`&nbsp;`C`
+
+- Windows/Linux: `Control`&nbsp;`Alt`&nbsp;`C`
+- macOS: `Cmd`&nbsp;`Alt`&nbsp;`C`
 
 ## Source code
+
 [packages/extension-code-block/](https://github.com/ueberdosis/tiptap/blob/main/packages/extension-code-block/)
 
 ## Usage
+
 <demo name="Nodes/CodeBlock" highlight="3-5,17,36" />

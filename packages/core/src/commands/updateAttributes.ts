@@ -4,7 +4,7 @@ import getMarkType from '../helpers/getMarkType'
 import getSchemaTypeNameByName from '../helpers/getSchemaTypeNameByName'
 import { RawCommands } from '../types'
 
-declare module '@tiptap/core' {
+declare module '@tiptap-es5/core' {
   interface Commands<ReturnType> {
     updateAttributes: {
       /**

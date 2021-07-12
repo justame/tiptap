@@ -60,12 +60,12 @@
 </template>
 
 <script>
-import { Editor, EditorContent } from '@tiptap/vue-2'
-import StarterKit from '@tiptap/starter-kit'
-import Table from '@tiptap/extension-table'
-import TableRow from '@tiptap/extension-table-row'
-import TableCell from '@tiptap/extension-table-cell'
-import TableHeader from '@tiptap/extension-table-header'
+import { Editor, EditorContent } from '@tiptap-es5/vue-2'
+import StarterKit from '@tiptap-es5/starter-kit'
+import Table from '@tiptap-es5/extension-table'
+import TableRow from '@tiptap-es5/extension-table-row'
+import TableCell from '@tiptap-es5/extension-table-cell'
+import TableHeader from '@tiptap-es5/extension-table-header'
 
 const CustomTableCell = TableCell.extend({
   addAttributes() {

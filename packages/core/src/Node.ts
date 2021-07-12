@@ -19,7 +19,7 @@ import {
 import { NodeConfig } from '.'
 import { Editor } from './Editor'
 
-declare module '@tiptap/core' {
+declare module '@tiptap-es5/core' {
   interface NodeConfig<Options = any> {
     [key: string]: any;
 

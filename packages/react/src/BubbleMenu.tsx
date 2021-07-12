@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import { BubbleMenuPlugin, BubbleMenuPluginKey, BubbleMenuPluginProps } from '@tiptap/extension-bubble-menu'
+import { BubbleMenuPlugin, BubbleMenuPluginKey, BubbleMenuPluginProps } from '@tiptap-es5/extension-bubble-menu'
 
 export type BubbleMenuProps = Omit<BubbleMenuPluginProps, 'element'> & {
   className?: string,

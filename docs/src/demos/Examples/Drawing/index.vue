@@ -5,9 +5,9 @@
 </template>
 
 <script>
-import { Editor, EditorContent } from '@tiptap/vue-2'
-import Document from '@tiptap/extension-document'
-import Text from '@tiptap/extension-text'
+import { Editor, EditorContent } from '@tiptap-es5/vue-2'
+import Document from '@tiptap-es5/extension-document'
+import Text from '@tiptap-es5/extension-text'
 import Paper from './Paper.js'
 
 export default {

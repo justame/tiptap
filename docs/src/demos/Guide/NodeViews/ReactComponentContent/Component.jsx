@@ -1,5 +1,5 @@
 import React from 'react'
-import { NodeViewWrapper, NodeViewContent } from '@tiptap/react'
+import { NodeViewWrapper, NodeViewContent } from '@tiptap-es5/react'
 
 export default () => {
   return (

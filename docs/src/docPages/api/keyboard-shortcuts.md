@@ -3,14 +3,17 @@
 ## toc
 
 ## Introduction
+
 tiptap comes with sensible keyboard shortcut defaults. Depending on what you want to use it for, you’ll probably want to change those keyboard shortcuts to your liking. Let’s have a look at what we defined for you, and show you how to change it then!
 
 Funfact: We built a [keyboard shortcut learning app](https://mouseless.app), to which we manually added exercises for thousands of keyboard shortcuts for a bunch of tools.
 
 ## Predefined keyboard shortcuts
+
 Most of the core extensions register their own keyboard shortcuts. Depending on what set of extension you use, not all of the below listed keyboard shortcuts work for your editor.
 
 ### Essentials
+
 | Action                   | Windows/Linux                   | macOS                       |
 | ------------------------ | ------------------------------- | --------------------------- |
 | Copy                     | `Control`&nbsp;`C`              | `Cmd`&nbsp;`C`              |
@@ -22,6 +25,7 @@ Most of the core extensions register their own keyboard shortcuts. Depending on 
 | Add a line break         | `Shift`&nbsp;`Enter`            | `Shift`&nbsp;`Enter`        |
 
 ### Text Formatting
+
 | Action        | Windows/Linux                   | macOS                       |
 | ------------- | ------------------------------- | --------------------------- |
 | Bold          | `Control`&nbsp;`B`              | `Cmd`&nbsp;`B`              |
@@ -32,6 +36,7 @@ Most of the core extensions register their own keyboard shortcuts. Depending on 
 | Code          | `Control`&nbsp;`E`              | `Cmd`&nbsp;`E`              |
 
 ### Paragraph Formatting
+
 | Action                  | Windows/Linux                   | macOS                       |
 | ----------------------- | ------------------------------- | --------------------------- |
 | Apply normal text style | `Control`&nbsp;`Alt`&nbsp;`0`   | `Cmd`&nbsp;`Alt`&nbsp;`0`   |
@@ -56,6 +61,7 @@ Most of the core extensions register their own keyboard shortcuts. Depending on 
 <!--| Toggle task| `Control`&nbsp;`Enter` | `Cmd`&nbsp;`Enter` | -->
 
 ### Text Selection
+
 | Action                                            | Windows/Linux                   | macOS                       |
 | ------------------------------------------------- | ------------------------------- | --------------------------- |
 | Select all                                        | `Control`&nbsp;`A`              | `Cmd`&nbsp;`A`              |
@@ -67,6 +73,7 @@ Most of the core extensions register their own keyboard shortcuts. Depending on 
 | Extend selection to the end of the document       | `Control`&nbsp;`Shift`&nbsp;`↓` | `Cmd`&nbsp;`Shift`&nbsp;`↓` |
 
 ## Overwrite keyboard shortcuts
+
 Keyboard shortcuts may be strings like `'Shift-Control-Enter'`. Keys are based on the strings that can appear in `event.key`, concatenated with a `-`. There is a little tool called [keycode.info](https://keycode.info/), which shows the `event.key` interactively.
 
 Use lowercase letters to refer to letter keys (or uppercase letters if you want shift to be held). You may use `Space` as an alias for the <code>&nbsp;</code>.
@@ -79,23 +86,23 @@ Here is an example how you can overwrite the keyboard shortcuts for an existing 
 
 ```js
 // 1. Import the extension
-import BulletList from '@tiptap/extension-bullet-list'
+import BulletList from "@tiptap-es5/extension-bullet-list";
 
 // 2. Overwrite the keyboard shortcuts
 const CustomBulletList = BulletList.extend({
   addKeyboardShortcuts() {
     return {
       // ↓ your new keyboard shortcut
-      'Mod-l': () => this.editor.commands.toggleBulletList(),
-    }
-  },
-})
+      "Mod-l": () => this.editor.commands.toggleBulletList()
+    };
+  }
+});
 
 // 3. Add the custom extension to your editor
 new Editor({
   extensions: [
-    CustomBulletList(),
+    CustomBulletList()
     // …
-  ],
-})
+  ]
+});
 ```

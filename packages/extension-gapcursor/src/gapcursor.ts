@@ -3,10 +3,10 @@ import {
   callOrReturn,
   getExtensionField,
   ParentConfig,
-} from '@tiptap/core'
+} from '@tiptap-es5/core'
 import { gapCursor } from 'prosemirror-gapcursor'
 
-declare module '@tiptap/core' {
+declare module '@tiptap-es5/core' {
   interface NodeConfig<Options> {
     /**
      * Allow gap cursor

@@ -1,35 +1,35 @@
-import { Node, mergeAttributes } from '@tiptap/core'
-import { VueNodeViewRenderer } from '@tiptap/vue-2'
-import Component from './Component.vue'
+import { Node, mergeAttributes } from "@tiptap-es5/core";
+import { VueNodeViewRenderer } from "@tiptap-es5/vue-2";
+import Component from "./Component.vue";
 
 export default Node.create({
-  name: 'paper',
+  name: "paper",
 
-  group: 'block',
+  group: "block",
 
   atom: true,
 
   addAttributes() {
     return {
       lines: {
-        default: [],
-      },
-    }
+        default: []
+      }
+    };
   },
 
   parseHTML() {
     return [
       {
-        tag: 'div[data-type="paper"]',
-      },
-    ]
+        tag: 'div[data-type="paper"]'
+      }
+    ];
   },
 
   renderHTML({ HTMLAttributes }) {
-    return ['div', mergeAttributes(HTMLAttributes, { 'data-type': 'paper' })]
+    return ["div", mergeAttributes(HTMLAttributes, { "data-type": "paper" })];
   },
 
   addNodeView() {
-    return VueNodeViewRenderer(Component)
-  },
-})
+    return VueNodeViewRenderer(Component);
+  }
+});

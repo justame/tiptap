@@ -1,4 +1,4 @@
-import { Editor, Range } from '@tiptap/core'
+import { Editor, Range } from '@tiptap-es5/core'
 import { Plugin, PluginKey } from 'prosemirror-state'
 import { Decoration, DecorationSet, EditorView } from 'prosemirror-view'
 import { findSuggestionMatch } from './findSuggestionMatch'

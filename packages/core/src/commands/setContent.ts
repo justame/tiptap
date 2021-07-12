@@ -3,7 +3,7 @@ import { ParseOptions } from 'prosemirror-model'
 import createDocument from '../helpers/createDocument'
 import { RawCommands, Content } from '../types'
 
-declare module '@tiptap/core' {
+declare module '@tiptap-es5/core' {
   interface Commands<ReturnType> {
     setContent: {
       /**

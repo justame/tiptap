@@ -1,7 +1,7 @@
 import { exitCode as originalExitCode } from 'prosemirror-commands'
 import { RawCommands } from '../types'
 
-declare module '@tiptap/core' {
+declare module '@tiptap-es5/core' {
   interface Commands<ReturnType> {
     exitCode: {
       /**

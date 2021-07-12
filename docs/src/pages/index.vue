@@ -120,8 +120,8 @@
   &lt;div class="element"&gt;&lt;/div&gt;
 
   &lt;script type="module"&gt;
-    import { Editor } from 'https://cdn.skypack.dev/@tiptap/core?min'
-    import StarterKit from 'https://cdn.skypack.dev/@tiptap/starter-kit?min'
+    import { Editor } from 'https://cdn.skypack.dev/@tiptap-es5/core?min'
+    import StarterKit from 'https://cdn.skypack.dev/@tiptap-es5/starter-kit?min'
 
     const editor = new Editor({
       element: document.querySelector('.element'),

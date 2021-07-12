@@ -59,15 +59,15 @@
 </template>
 
 <script>
-import { Editor, EditorContent } from '@tiptap/vue-2'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import Table from '@tiptap/extension-table'
-import TableRow from '@tiptap/extension-table-row'
-import TableCell from '@tiptap/extension-table-cell'
-import TableHeader from '@tiptap/extension-table-header'
-import Gapcursor from '@tiptap/extension-gapcursor'
+import { Editor, EditorContent } from '@tiptap-es5/vue-2'
+import Document from '@tiptap-es5/extension-document'
+import Paragraph from '@tiptap-es5/extension-paragraph'
+import Text from '@tiptap-es5/extension-text'
+import Table from '@tiptap-es5/extension-table'
+import TableRow from '@tiptap-es5/extension-table-row'
+import TableCell from '@tiptap-es5/extension-table-cell'
+import TableHeader from '@tiptap-es5/extension-table-header'
+import Gapcursor from '@tiptap-es5/extension-gapcursor'
 
 export default {
   components: {

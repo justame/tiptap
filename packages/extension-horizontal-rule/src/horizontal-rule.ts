@@ -2,14 +2,14 @@ import {
   Node,
   nodeInputRule,
   mergeAttributes,
-} from '@tiptap/core'
+} from '@tiptap-es5/core'
 import { TextSelection } from 'prosemirror-state'
 
 export interface HorizontalRuleOptions {
   HTMLAttributes: Record<string, any>,
 }
 
-declare module '@tiptap/core' {
+declare module '@tiptap-es5/core' {
   interface Commands<ReturnType> {
     horizontalRule: {
       /**

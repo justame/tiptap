@@ -1,5 +1,5 @@
 {
-  "name": "@tiptap/extension-bubble-menu",
+  "name": "@tiptap-es5/extension-bubble-menu",
   "description": "bubble-menu extension for tiptap",
   "version": "2.0.0-beta.24",
   "homepage": "https://tiptap.dev",
@@ -21,7 +21,7 @@
     "dist"
   ],
   "peerDependencies": {
-    "@tiptap/core": "^2.0.0-beta.1"
+    "@tiptap-es5/core": "^2.0.0-beta.1"
   },
   "dependencies": {
     "prosemirror-state": "^1.3.4",

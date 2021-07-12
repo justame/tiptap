@@ -1,8 +1,8 @@
 import React from 'react'
-import { useEditor, EditorContent } from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
-import Highlight from '@tiptap/extension-highlight'
-import Typography from '@tiptap/extension-typography'
+import { useEditor, EditorContent } from '@tiptap-es5/react'
+import StarterKit from '@tiptap-es5/starter-kit'
+import Highlight from '@tiptap-es5/extension-highlight'
+import Typography from '@tiptap-es5/extension-typography'
 import './styles.scss'
 
 export default () => {

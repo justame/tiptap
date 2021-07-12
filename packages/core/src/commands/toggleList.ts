@@ -4,7 +4,7 @@ import getNodeType from '../helpers/getNodeType'
 import findParentNode from '../helpers/findParentNode'
 import isList from '../helpers/isList'
 
-declare module '@tiptap/core' {
+declare module '@tiptap-es5/core' {
   interface Commands<ReturnType> {
     toggleList: {
       /**

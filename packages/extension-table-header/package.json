@@ -1,5 +1,5 @@
 {
-  "name": "@tiptap/extension-table-header",
+  "name": "@tiptap-es5/extension-table-header",
   "description": "table cell extension for tiptap",
   "version": "2.0.0-beta.15",
   "homepage": "https://tiptap.dev",
@@ -21,6 +21,6 @@
     "dist"
   ],
   "peerDependencies": {
-    "@tiptap/core": "^2.0.0-beta.1"
+    "@tiptap-es5/core": "^2.0.0-beta.1"
   }
 }

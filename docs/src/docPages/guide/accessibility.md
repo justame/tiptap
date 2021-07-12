@@ -7,17 +7,21 @@ We need your support to maintain, update, support and develop tiptap. If you’r
 ## toc
 
 ## Introduction
+
 We strive to make tiptap accessible to everyone, but to be honest, there’s not much work done now. From our current understanding, that’s what needs to be done:
 
 ## Interface
+
 An interface needs to have well-defined contrasts, big enough click areas, semantic markup, must be keyboard accessible and well documented. Currently, we don’t even provide an interface, so for now that’s totally up to you.
 
 But no worries, we’ll provide an interface soon and take accessibility into account early on.
 
 ## Output
+
 The editor needs to produce semantic markup, must be keyboard accessible and well documented. The tiptap content is well structured so that’s a good foundation already. That said, we can add support and encourage the usage of additional attributes, for example the Alt-attribute for images.
 
 ### Writing assistance (optional)
+
 An optional writing assitance could help people writing content semanticly correct, for example pointing out an incorrect usage of heading levels. With that kind of assistance provided by the core developers, we could help to improve the content of a lot of applications.
 
 ## Resources
@@ -34,4 +38,4 @@ An optional writing assitance could help people writing content semanticly corre
 
 TODO: Update resources to point to WCAG 3.0 https://www.w3.org/TR/wcag-3.0/
 
-Anything we should add here? [Please let us know](mailto:humans@tiptap.dev), so we can take it into account.
+Anything we should add here? [Please let us know](mailto:humans@tiptap-es5.dev), so we can take it into account.

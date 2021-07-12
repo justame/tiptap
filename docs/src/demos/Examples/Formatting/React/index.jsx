@@ -1,8 +1,8 @@
 import React from 'react'
-import { useEditor, EditorContent } from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
-import TextAlign from '@tiptap/extension-text-align'
-import Highlight from '@tiptap/extension-highlight'
+import { useEditor, EditorContent } from '@tiptap-es5/react'
+import StarterKit from '@tiptap-es5/starter-kit'
+import TextAlign from '@tiptap-es5/extension-text-align'
+import Highlight from '@tiptap-es5/extension-highlight'
 import './styles.scss'
 
 const MenuBar = ({ editor }) => {

@@ -23,9 +23,9 @@
 </template>
 
 <script>
-import { Editor, EditorContent } from '@tiptap/vue-2'
-import StarterKit from '@tiptap/starter-kit'
-import Image from '@tiptap/extension-image'
+import { Editor, EditorContent } from '@tiptap-es5/vue-2'
+import StarterKit from '@tiptap-es5/starter-kit'
+import Image from '@tiptap-es5/extension-image'
 import { Figure } from './figure'
 
 export default {

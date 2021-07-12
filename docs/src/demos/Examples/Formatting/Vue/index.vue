@@ -43,10 +43,10 @@
 </template>
 
 <script>
-import { Editor, EditorContent } from '@tiptap/vue-2'
-import StarterKit from '@tiptap/starter-kit'
-import TextAlign from '@tiptap/extension-text-align'
-import Highlight from '@tiptap/extension-highlight'
+import { Editor, EditorContent } from '@tiptap-es5/vue-2'
+import StarterKit from '@tiptap-es5/starter-kit'
+import TextAlign from '@tiptap-es5/extension-text-align'
+import Highlight from '@tiptap-es5/extension-highlight'
 
 export default {
   components: {

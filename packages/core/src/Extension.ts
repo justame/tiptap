@@ -13,7 +13,7 @@ import {
 } from './types'
 import { ExtensionConfig } from '.'
 
-declare module '@tiptap/core' {
+declare module '@tiptap-es5/core' {
   interface ExtensionConfig<Options = any> {
     [key: string]: any;
 

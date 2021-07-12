@@ -3,9 +3,11 @@
 ## toc
 
 ## Introduction
+
 If you think of the document as a tree, then nodes are just a type of content in that tree. Examples of nodes are paragraphs, headings, or code blocks. But nodes don’t have to be blocks. They can also be rendered inline with the text, for example for **@mentions**.
 
 ## List of supported nodes
+
 | Title                                        | StarterKit ([view](/api/extensions/starter-kit)) | Source Code                                                                                  |
 | -------------------------------------------- | ------------------------------------------------ | -------------------------------------------------------------------------------------------- |
 | [Blockquote](/api/nodes/blockquote)          | Included                                         | [GitHub](https://github.com/ueberdosis/tiptap/blob/main/packages/extension-blockquote/)      |
@@ -30,14 +32,15 @@ If you think of the document as a tree, then nodes are just a type of content in
 | [Text](/api/nodes/text)                      | Included                                         | [GitHub](https://github.com/ueberdosis/tiptap/blob/main/packages/extension-text/)            |
 
 ## Create a new node
+
 You’re free to create your own nodes for tiptap. Here is the boilerplate code that’s need to create and register your own node:
 
 ```js
-import { Node } from '@tiptap/core'
+import { Node } from "@tiptap-es5/core";
 
 const CustomNode = Node.create({
   // Your code here
-})
+});
 
 const editor = new Editor({
   extensions: [
@@ -46,10 +49,10 @@ const editor = new Editor({
     // … and don’t forget all other extensions.
     Document,
     Paragraph,
-    Text,
+    Text
     // …
-  ],
-})
+  ]
+});
 ```
 
 Learn [more about custom extensions in our guide](/guide/custom-extensions).

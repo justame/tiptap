@@ -4,7 +4,7 @@ import {
   mergeAttributes,
   getExtensionField,
   callOrReturn,
-} from '@tiptap/core'
+} from '@tiptap-es5/core'
 import {
   tableEditing,
   columnResizing,
@@ -41,7 +41,7 @@ export interface TableOptions {
   allowTableNodeSelection: boolean,
 }
 
-declare module '@tiptap/core' {
+declare module '@tiptap-es5/core' {
   interface Commands<ReturnType> {
     table: {
       insertTable: (options?: { rows?: number, cols?: number, withHeaderRow?: boolean }) => ReturnType,

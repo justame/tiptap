@@ -1,4 +1,4 @@
-import { Range } from '@tiptap/core'
+import { Range } from '@tiptap-es5/core'
 import { ResolvedPos } from 'prosemirror-model'
 
 export interface Trigger {

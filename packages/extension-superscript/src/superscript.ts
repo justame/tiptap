@@ -1,10 +1,10 @@
-import { Mark, mergeAttributes } from '@tiptap/core'
+import { Mark, mergeAttributes } from '@tiptap-es5/core'
 
 export interface SuperscriptExtensionOptions {
   HTMLAttributes: Object,
 }
 
-declare module '@tiptap/core' {
+declare module '@tiptap-es5/core' {
   interface Commands<ReturnType> {
     superscript: {
       /**

@@ -1,38 +1,45 @@
 # TaskList
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-task-list.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-task-list)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-task-list.svg)](https://npmcharts.com/compare/@tiptap/extension-task-list?minimal=true)
+
+[![Version](https://img.shields.io/npm/v/@tiptap-es5/extension-task-list.svg?label=version)](https://www.npmjs.com/package/@tiptap-es5/extension-task-list)
+[![Downloads](https://img.shields.io/npm/dm/@tiptap-es5/extension-task-list.svg)](https://npmcharts.com/compare/@tiptap-es5/extension-task-list?minimal=true)
 
 This extension enables you to use task lists in the editor. They are rendered as `<ul data-type="taskList">`. This implementation doesn’t require any framework, it’s using Vanilla JavaScript only.
 
 Type <code>[ ]&nbsp;</code> or <code>[x]&nbsp;</code> at the beginning of a new line and it will magically transform to a task list.
 
 ## Installation
+
 ```bash
 # with npm
-npm install @tiptap/extension-task-list @tiptap/extension-task-item
+npm install @tiptap-es5/extension-task-list @tiptap-es5/extension-task-item
 
 # with Yarn
-yarn add @tiptap/extension-task-list @tiptap/extension-task-item
+yarn add @tiptap-es5/extension-task-list @tiptap-es5/extension-task-item
 ```
 
 This extension requires the [`TaskItem`](/api/nodes/task-item) extension.
 
 ## Settings
+
 | Option         | Type     | Default | Description                                                           |
 | -------------- | -------- | ------- | --------------------------------------------------------------------- |
 | HTMLAttributes | `Object` | `{}`    | Custom HTML attributes that should be added to the rendered HTML tag. |
 
 ## Commands
+
 | Command  | Parameters | Description         |
 | -------- | ---------- | ------------------- |
 | taskList | —          | Toggle a task list. |
 
 ## Keyboard shortcuts
-* Windows/Linux: `Control`&nbsp;`Shift`&nbsp;`9`
-* macOS: `Cmd`&nbsp;`Shift`&nbsp;`9`
+
+- Windows/Linux: `Control`&nbsp;`Shift`&nbsp;`9`
+- macOS: `Cmd`&nbsp;`Shift`&nbsp;`9`
 
 ## Source code
+
 [packages/extension-task-list/](https://github.com/ueberdosis/tiptap/blob/main/packages/extension-task-list/)
 
 ## Usage
+
 <demo name="Nodes/TaskList" highlight="3-5,17-18,37-38" />

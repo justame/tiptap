@@ -1,4 +1,4 @@
-import { Extension } from '@tiptap/core'
+import { Extension } from '@tiptap-es5/core'
 import { yCursorPlugin } from 'y-prosemirror'
 
 export interface CollaborationCursorOptions {
@@ -8,7 +8,7 @@ export interface CollaborationCursorOptions {
   onUpdate: (users: { clientId: string, [key: string]: any }[]) => null,
 }
 
-declare module '@tiptap/core' {
+declare module '@tiptap-es5/core' {
   interface Commands<ReturnType> {
     collaborationCursor: {
       /**

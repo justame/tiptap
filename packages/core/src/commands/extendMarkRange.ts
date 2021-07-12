@@ -4,7 +4,7 @@ import { RawCommands } from '../types'
 import getMarkType from '../helpers/getMarkType'
 import getMarkRange from '../helpers/getMarkRange'
 
-declare module '@tiptap/core' {
+declare module '@tiptap-es5/core' {
   interface Commands<ReturnType> {
     extendMarkRange: {
       /**

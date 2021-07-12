@@ -5,7 +5,7 @@ import {
   starPasteRegex,
   underscoreInputRegex,
   underscorePasteRegex,
-} from '@tiptap/extension-bold'
+} from '@tiptap-es5/extension-bold'
 
 describe('bold regex test', () => {
   it('star input regex matches', () => {

@@ -1,14 +1,18 @@
-# @tiptap/suggestions
-[![Version](https://img.shields.io/npm/v/@tiptap/suggestions.svg?label=version)](https://www.npmjs.com/package/@tiptap/suggestions)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/suggestions.svg)](https://npmcharts.com/compare/tiptap?minimal=true)
-[![License](https://img.shields.io/npm/l/@tiptap/suggestions.svg)](https://www.npmjs.com/package/@tiptap/suggestions)
+# @tiptap-es5/suggestions
+
+[![Version](https://img.shields.io/npm/v/@tiptap-es5/suggestions.svg?label=version)](https://www.npmjs.com/package/@tiptap-es5/suggestions)
+[![Downloads](https://img.shields.io/npm/dm/@tiptap-es5/suggestions.svg)](https://npmcharts.com/compare/tiptap?minimal=true)
+[![License](https://img.shields.io/npm/l/@tiptap-es5/suggestions.svg)](https://www.npmjs.com/package/@tiptap-es5/suggestions)
 [![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub)](https://github.com/sponsors/ueberdosis)
 
 ## Introduction
-tiptap is a headless wrapper around [ProseMirror](https://ProseMirror.net) – a toolkit for building rich text WYSIWYG editors, which is already in use at many well-known companies such as *New York Times*, *The Guardian* or *Atlassian*.
+
+tiptap is a headless wrapper around [ProseMirror](https://ProseMirror.net) – a toolkit for building rich text WYSIWYG editors, which is already in use at many well-known companies such as _New York Times_, _The Guardian_ or _Atlassian_.
 
 ## Official Documentation
+
 Documentation can be found on the [tiptap website](https://tiptap.dev).
 
 ## License
+
 tiptap is open sourced software licensed under the [MIT license](https://github.com/ueberdosis/tiptap/blob/main/LICENSE.md).

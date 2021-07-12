@@ -1,5 +1,5 @@
 import React from 'react'
-import { NodeViewWrapper } from '@tiptap/react'
+import { NodeViewWrapper } from '@tiptap-es5/react'
 
 export default props => {
   const increase = () => {

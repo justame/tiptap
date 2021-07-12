@@ -3,7 +3,7 @@ import { NodeType } from 'prosemirror-model'
 import { RawCommands } from '../types'
 import getNodeType from '../helpers/getNodeType'
 
-declare module '@tiptap/core' {
+declare module '@tiptap-es5/core' {
   interface Commands<ReturnType> {
     sinkListItem: {
       /**

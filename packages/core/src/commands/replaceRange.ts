@@ -2,7 +2,7 @@ import { NodeType } from 'prosemirror-model'
 import getNodeType from '../helpers/getNodeType'
 import { RawCommands, Range } from '../types'
 
-declare module '@tiptap/core' {
+declare module '@tiptap-es5/core' {
   interface Commands<ReturnType> {
     replaceRange: {
       /**

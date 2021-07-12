@@ -1,6 +1,7 @@
 # Paragraph
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-paragraph.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-paragraph)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-paragraph.svg)](https://npmcharts.com/compare/@tiptap/extension-paragraph?minimal=true)
+
+[![Version](https://img.shields.io/npm/v/@tiptap-es5/extension-paragraph.svg?label=version)](https://www.npmjs.com/package/@tiptap-es5/extension-paragraph)
+[![Downloads](https://img.shields.io/npm/dm/@tiptap-es5/extension-paragraph.svg)](https://npmcharts.com/compare/@tiptap-es5/extension-paragraph?minimal=true)
 
 Yes, the schema is very strict. Without this extension you won’t even be able to use paragraphs in the editor.
 
@@ -9,30 +10,36 @@ tiptap 1 tried to hide that node from you, but it has always been there. You hav
 :::
 
 ## Installation
+
 ```bash
 # with npm
-npm install @tiptap/extension-paragraph
+npm install @tiptap-es5/extension-paragraph
 
 # with Yarn
-yarn add @tiptap/extension-paragraph
+yarn add @tiptap-es5/extension-paragraph
 ```
 
 ## Settings
+
 | Option         | Type     | Default | Description                                                           |
 | -------------- | -------- | ------- | --------------------------------------------------------------------- |
 | HTMLAttributes | `Object` | `{}`    | Custom HTML attributes that should be added to the rendered HTML tag. |
 
 ## Commands
+
 | Command   | Parameters | Description                                  |
 | --------- | ---------- | -------------------------------------------- |
 | paragraph | —          | Transforms all selected nodes to paragraphs. |
 
 ## Keyboard shortcuts
-* Windows & Linux: `Control`&nbsp;`Alt`&nbsp;`0`
-* macOS: `Cmd`&nbsp;`Alt`&nbsp;`0`
+
+- Windows & Linux: `Control`&nbsp;`Alt`&nbsp;`0`
+- macOS: `Cmd`&nbsp;`Alt`&nbsp;`0`
 
 ## Source code
+
 [packages/extension-paragraph/](https://github.com/ueberdosis/tiptap/blob/main/packages/extension-paragraph/)
 
 ## Usage
+
 <demo name="Nodes/Paragraph" highlight="11,29" />

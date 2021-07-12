@@ -3,6 +3,7 @@
 ## toc
 
 ## Introduction
+
 The editor fires a few different events that you can hook into. Let’s have a look at all the available events first:
 
 ## List of available events
@@ -19,9 +20,11 @@ The editor fires a few different events that you can hook into. Let’s have a l
 | destroy         | The editor is being destroyed.    |
 
 ## Register event listeners
+
 There are three ways to register event listeners.
 
 ### Option 1: Configuration
+
 You can define your event listeners on a new editor instance right-away:
 
 ```js
@@ -49,14 +52,16 @@ const editor = new Editor({
   },
   onDestroy() {
     // The editor is being destroyed.
-  },
-})
+  }
+});
 ```
 
 ### Option 2: Binding
+
 Or you can register your event listeners on a running editor instance:
 
 #### Bind event listeners
+
 ```js
 editor.on('beforeCreate', ({ editor }) => {
   // Before the view is created.
@@ -92,25 +97,27 @@ editor.on('destroy', () => {
 ```
 
 #### Unbind event listeners
+
 If you need to unbind those event listeners at some point, you should register your event listeners with `.on()` and unbind them with `.off()` then.
 
 ```js
 const onUpdate = () => {
   // The content has changed.
-}
+};
 
 // Bind …
-editor.on('update', onUpdate)
+editor.on("update", onUpdate);
 
 // … and unbind.
-editor.off('update', onUpdate)
+editor.off("update", onUpdate);
 ```
 
 ### Option 3: Extensions
+
 Moving your event listeners to custom extensions (or nodes, or marks) is also possible. Here’s how that would look like:
 
 ```js
-import { Extension } from '@tiptap/core'
+import { Extension } from "@tiptap-es5/core";
 
 const CustomExtension = Extension.create({
   onBeforeCreate({ editor }) {
@@ -136,6 +143,6 @@ const CustomExtension = Extension.create({
   },
   onDestroy() {
     // The editor is being destroyed.
-  },
-})
+  }
+});
 ```

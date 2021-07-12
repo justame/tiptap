@@ -1,19 +1,22 @@
 # Placeholder
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-placeholder.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-placeholder)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-placeholder.svg)](https://npmcharts.com/compare/@tiptap/extension-placeholder?minimal=true)
+
+[![Version](https://img.shields.io/npm/v/@tiptap-es5/extension-placeholder.svg?label=version)](https://www.npmjs.com/package/@tiptap-es5/extension-placeholder)
+[![Downloads](https://img.shields.io/npm/dm/@tiptap-es5/extension-placeholder.svg)](https://npmcharts.com/compare/@tiptap-es5/extension-placeholder?minimal=true)
 
 This extension provides placeholder support. Give your users an idea what they should write with a tiny hint. There is a handful of things to customize, if you feel like it.
 
 ## Installation
+
 ```bash
 # with npm
-npm install @tiptap/extension-placeholder
+npm install @tiptap-es5/extension-placeholder
 
 # with Yarn
-yarn add @tiptap/extension-placeholder
+yarn add @tiptap-es5/extension-placeholder
 ```
 
 ## Settings
+
 | Option               | Type                | Default               | Description                                                 |
 | -------------------- | ------------------- | --------------------- | ----------------------------------------------------------- |
 | emptyEditorClass     | `String`            | `'is-editor-empty'`   | The added CSS class if the editor is empty.                 |
@@ -23,7 +26,9 @@ yarn add @tiptap/extension-placeholder
 | showOnlyCurrent      | `Boolean`           | `true`                | Show decorations only in currently selected node.           |
 
 ## Source code
+
 [packages/extension-placeholder/](https://github.com/ueberdosis/tiptap/blob/main/packages/extension-placeholder/)
 
 ## Usage
+
 <demo name="Extensions/Placeholder" />

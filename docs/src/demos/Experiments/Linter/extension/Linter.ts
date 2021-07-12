@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { Extension } from '@tiptap/core'
+import { Extension } from '@tiptap-es5/core'
 import { Decoration, DecorationSet } from 'prosemirror-view'
 import { Plugin, PluginKey, TextSelection } from 'prosemirror-state'
 

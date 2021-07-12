@@ -30,7 +30,7 @@ function resolveSelection(state: EditorState, position: FocusPosition = null) {
   }
 }
 
-declare module '@tiptap/core' {
+declare module '@tiptap-es5/core' {
   interface Commands<ReturnType> {
     focus: {
       /**

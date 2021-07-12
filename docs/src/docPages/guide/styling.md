@@ -3,9 +3,11 @@
 ## toc
 
 ## Introduction
+
 tiptap is headless, that means there is no styling provided. That also means, you are in full control of how your editor looks. The following methods allow you to apply custom styles to the editor.
 
 ## Option 1: Style the plain HTML
+
 The whole editor is rendered inside of a container with the class `.ProseMirror`. You can use that to scope your styling to the editor content:
 
 ```css
@@ -24,11 +26,12 @@ p {
 }
 ```
 
-
 ## Option 2: Add custom classes
+
 You can control the whole rendering, including adding classes to everything.
 
 ### Extensions
+
 Most extensions allow you to add attributes to the rendered HTML through the `HTMLAttributes` option. You can use that to add a custom class (or any other attribute). That’s also very helpful, when you work with [Tailwind CSS](https://tailwindcss.com/).
 
 ```js
@@ -37,17 +40,17 @@ new Editor({
     Document,
     Paragraph.configure({
       HTMLAttributes: {
-        class: 'my-custom-paragraph',
-      },
+        class: "my-custom-paragraph"
+      }
     }),
     Heading.configure({
       HTMLAttributes: {
-        class: 'my-custom-heading',
-      },
+        class: "my-custom-heading"
+      }
     }),
-    Text,
-  ],
-})
+    Text
+  ]
+});
 ```
 
 The rendered HTML will look like that:
@@ -60,19 +63,21 @@ The rendered HTML will look like that:
 If there are already classes defined by the extensions, your classes will be added.
 
 ### Editor
+
 You can even pass classes to the element which contains the editor like that:
 
 ```js
 new Editor({
   editorProps: {
     attributes: {
-      class: 'prose prose-sm sm:prose lg:prose-lg xl:prose-2xl mx-auto focus:outline-none',
-    },
-  },
-})
+      class: "prose prose-sm sm:prose lg:prose-lg xl:prose-2xl mx-auto focus:outline-none"
+    }
+  }
+});
 ```
 
 ### With Tailwind CSS
+
 The editor works fine with Tailwind CSS, too. Find an example that’s styled with the `@tailwindcss/typography` plugin below.
 
 <iframe
@@ -84,26 +89,26 @@ The editor works fine with Tailwind CSS, too. Find an example that’s styled wi
 ></iframe>
 
 ## Option 3: Customize the HTML
+
 Or you can customize the markup for extensions. The following example will make a custom bold extension that doesn’t render a `<strong>` tag, but a `<b>` tag:
 
 ```js
-import Bold from '@tiptap/extension-bold'
+import Bold from "@tiptap-es5/extension-bold";
 
 const CustomBold = Bold.extend({
   renderHTML({ HTMLAttributes }) {
     // Original:
     // return ['strong', HTMLAttributes, 0]
-    return ['b', HTMLAttributes, 0]
-  },
-})
+    return ["b", HTMLAttributes, 0];
+  }
+});
 
 new Editor({
   extensions: [
     // …
-    CustomBold(),
-  ],
-})
+    CustomBold()
+  ]
+});
 ```
 
 You should put your custom extensions in separate files, but I think you got the idea.
-

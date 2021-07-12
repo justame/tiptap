@@ -7,14 +7,17 @@ title: Vue.js 3 WYSIWYG
 ## toc
 
 ## Introduction
+
 The following guide describes how to integrate tiptap with your [Vue](https://vuejs.org/) CLI project.
 
 ## Requirements
-* [Node](https://nodejs.org/en/download/) installed on your machine
-* [Vue CLI](https://cli.vuejs.org/) installed on your machine
-* Experience with [Vue](https://v3.vuejs.org/guide/introduction.html)
+
+- [Node](https://nodejs.org/en/download/) installed on your machine
+- [Vue CLI](https://cli.vuejs.org/) installed on your machine
+- Experience with [Vue](https://v3.vuejs.org/guide/introduction.html)
 
 ## 1. Create a project (optional)
+
 If you already have an existing Vue project, that’s fine too. Just skip this step and proceed with the next step.
 
 For the sake of this guide, let’s start with a fresh Vue project called `tiptap-example`. The Vue CLI sets up everything we need, just select the Vue 3 template.
@@ -28,19 +31,21 @@ cd tiptap-example
 ```
 
 ## 2. Install the dependencies
-Okay, enough of the boring boilerplate work. Let’s finally install tiptap! For the following example you’ll need the `@tiptap/vue-3` package, with a few components, and `@tiptap/starter-kit` which has the most common extensions to get started quickly.
+
+Okay, enough of the boring boilerplate work. Let’s finally install tiptap! For the following example you’ll need the `@tiptap-es5/vue-3` package, with a few components, and `@tiptap-es5/starter-kit` which has the most common extensions to get started quickly.
 
 ```bash
 # install with npm
-npm install @tiptap/vue-3 @tiptap/starter-kit
+npm install @tiptap-es5/vue-3 @tiptap-es5/starter-kit
 
 # install with Yarn
-yarn add @tiptap/vue-3 @tiptap/starter-kit
+yarn add @tiptap-es5/vue-3 @tiptap-es5/starter-kit
 ```
 
 If you followed step 1 and 2, you can now start your project with `npm run dev` or `yarn dev`, and open [http://localhost:8080](http://localhost:8080) in your favorite browser. This might be different, if you’re working with an existing project.
 
 ## 3. Create a new component
+
 To actually start using tiptap, you’ll need to add a new component to your app. Let’s call it `Tiptap` and put the following example code in `components/Tiptap.vue`.
 
 This is the fastest way to get tiptap up and running with Vue. It will give you a very basic version of tiptap, without any buttons. No worries, you will be able to add more functionality soon.
@@ -51,33 +56,31 @@ This is the fastest way to get tiptap up and running with Vue. It will give you 
 </template>
 
 <script>
-import { Editor, EditorContent } from '@tiptap/vue-3'
-import StarterKit from '@tiptap/starter-kit'
+  import { Editor, EditorContent } from "@tiptap-es5/vue-3";
+  import StarterKit from "@tiptap-es5/starter-kit";
 
-export default {
-  components: {
-    EditorContent,
-  },
+  export default {
+    components: {
+      EditorContent
+    },
 
-  data() {
-    return {
-      editor: null,
+    data() {
+      return {
+        editor: null
+      };
+    },
+
+    mounted() {
+      this.editor = new Editor({
+        content: "<p>I’m running tiptap with Vue.js. 🎉</p>",
+        extensions: [StarterKit]
+      });
+    },
+
+    beforeUnmount() {
+      this.editor.destroy();
     }
-  },
-
-  mounted() {
-    this.editor = new Editor({
-      content: '<p>I’m running tiptap with Vue.js. 🎉</p>',
-      extensions: [
-        StarterKit,
-      ],
-    })
-  },
-
-  beforeUnmount() {
-    this.editor.destroy()
-  },
-}
+  };
 </script>
 ```
 
@@ -89,29 +92,28 @@ Alternatively, you can use the Composition API with the `useEditor` method.
 </template>
 
 <script>
-import { useEditor, EditorContent } from '@tiptap/vue-3'
-import StarterKit from '@tiptap/starter-kit'
+  import { useEditor, EditorContent } from "@tiptap-es5/vue-3";
+  import StarterKit from "@tiptap-es5/starter-kit";
 
-export default {
-  components: {
-    EditorContent,
-  },
+  export default {
+    components: {
+      EditorContent
+    },
 
-  setup() {
-    const editor = useEditor({
-      content: '<p>I’m running tiptap with Vue.js. 🎉</p>',
-      extensions: [
-        StarterKit,
-      ],
-    })
+    setup() {
+      const editor = useEditor({
+        content: "<p>I’m running tiptap with Vue.js. 🎉</p>",
+        extensions: [StarterKit]
+      });
 
-    return { editor }
-  },
-}
+      return { editor };
+    }
+  };
 </script>
 ```
 
 ## 4. Add it to your app
+
 Now, let’s replace the content of `src/App.vue` with the following example code to use our new `Tiptap` component in our app.
 
 ```html
@@ -122,20 +124,21 @@ Now, let’s replace the content of `src/App.vue` with the following example cod
 </template>
 
 <script>
-import Tiptap from './components/Tiptap.vue'
+  import Tiptap from "./components/Tiptap.vue";
 
-export default {
-  name: 'App',
-  components: {
-    Tiptap
-  }
-}
+  export default {
+    name: "App",
+    components: {
+      Tiptap
+    }
+  };
 </script>
 ```
 
 You should now see tiptap in your browser. Time to give yourself a pat on the back! :)
 
 ## 5. Use v-model (optional)
+
 You’re probably used to bind your data with `v-model` in forms, that’s also possible with tiptap. Here is how that would work with tiptap:
 
 ```html
@@ -144,54 +147,52 @@ You’re probably used to bind your data with `v-model` in forms, that’s also 
 </template>
 
 <script>
-import { Editor, EditorContent } from '@tiptap/vue-3'
-import StarterKit from '@tiptap/starter-kit'
+  import { Editor, EditorContent } from "@tiptap-es5/vue-3";
+  import StarterKit from "@tiptap-es5/starter-kit";
 
-export default {
-  components: {
-    EditorContent,
-  },
-
-  props: {
-    modelValue: {
-      type: String,
-      default: '',
+  export default {
+    components: {
+      EditorContent
     },
-  },
 
-  data() {
-    return {
-      editor: null,
-    }
-  },
-
-  watch: {
-    modelValue(value) {
-      const isSame = this.editor.getHTML() === value
-
-      if (isSame) {
-        return
+    props: {
+      modelValue: {
+        type: String,
+        default: ""
       }
-
-      this.editor.commands.setContent(this.modelValue, false)
     },
-  },
 
-  mounted() {
-    this.editor = new Editor({
-      content: this.modelValue,
-      extensions: [
-        StarterKit,
-      ],
-      onUpdate: () => {
-        this.$emit('update:modelValue', this.editor.getHTML())
-      },
-    })
-  },
+    data() {
+      return {
+        editor: null
+      };
+    },
 
-  beforeUnmount() {
-    this.editor.destroy()
-  },
-}
+    watch: {
+      modelValue(value) {
+        const isSame = this.editor.getHTML() === value;
+
+        if (isSame) {
+          return;
+        }
+
+        this.editor.commands.setContent(this.modelValue, false);
+      }
+    },
+
+    mounted() {
+      this.editor = new Editor({
+        content: this.modelValue,
+        extensions: [StarterKit],
+        onUpdate: () => {
+          this.$emit("update:modelValue", this.editor.getHTML());
+        }
+      });
+    },
+
+    beforeUnmount() {
+      this.editor.destroy();
+    }
+  };
 </script>
 ```

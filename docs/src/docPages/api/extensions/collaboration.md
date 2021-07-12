@@ -1,6 +1,7 @@
 # Collaboration
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-collaboration.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-collaboration)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-collaboration.svg)](https://npmcharts.com/compare/@tiptap/extension-collaboration?minimal=true)
+
+[![Version](https://img.shields.io/npm/v/@tiptap-es5/extension-collaboration.svg?label=version)](https://www.npmjs.com/package/@tiptap-es5/extension-collaboration)
+[![Downloads](https://img.shields.io/npm/dm/@tiptap-es5/extension-collaboration.svg)](https://npmcharts.com/compare/@tiptap-es5/extension-collaboration?minimal=true)
 
 The Collaboration extension enables you to collaborate with others in a single document. The implementation is based on [Y.js by Kevin Jahns](https://github.com/yjs/yjs), which is the coolest thing to [integrate collaborative editing](/guide/collaborative-editing) in your project.
 
@@ -11,15 +12,17 @@ We kindly ask you to [sponsor our work](/sponsor) when using this extension in p
 :::
 
 ## Installation
+
 ```bash
 # with npm
-npm install @tiptap/extension-collaboration yjs y-websocket
+npm install @tiptap-es5/extension-collaboration yjs y-websocket
 
 # with Yarn
-yarn add @tiptap/extension-collaboration yjs y-websocket
+yarn add @tiptap-es5/extension-collaboration yjs y-websocket
 ```
 
 ## Settings
+
 | Option   | Type     | Default     | Description                                                                             |
 | -------- | -------- | ----------- | --------------------------------------------------------------------------------------- |
 | document | `Object` | `null`      | An initialized Y.js document.                                                           |
@@ -27,24 +30,30 @@ yarn add @tiptap/extension-collaboration yjs y-websocket
 | fragment | `Object` | `null`      | A raw Y.js fragment, can be used instead of `document` and `field`.                     |
 
 ## Commands
+
 | Command | Parameters | Description           |
 | ------- | ---------- | --------------------- |
 | undo    | —          | Undo the last change. |
 | redo    | —          | Redo the last change. |
 
 ## Keyboard shortcuts
+
 ### Undo
-* Windows/Linux: `Control`&nbsp;`Z`
-* macOS: `Cmd`&nbsp;`Z`
+
+- Windows/Linux: `Control`&nbsp;`Z`
+- macOS: `Cmd`&nbsp;`Z`
 
 ### Redo
-* Windows/Linux: `Shift`&nbsp;`Control`&nbsp;`Z` or `Control`&nbsp;`Y`
-* macOS: `Shift`&nbsp;`Cmd`&nbsp;`Z` or `Cmd`&nbsp;`Y`
+
+- Windows/Linux: `Shift`&nbsp;`Control`&nbsp;`Z` or `Control`&nbsp;`Y`
+- macOS: `Shift`&nbsp;`Cmd`&nbsp;`Z` or `Cmd`&nbsp;`Y`
 
 ## Source code
+
 [packages/extension-collaboration/](https://github.com/ueberdosis/tiptap/blob/main/packages/extension-collaboration/)
 
 ## Usage
+
 :::warning Public
 The content of this editor is shared with other users.
 :::

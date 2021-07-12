@@ -21,14 +21,14 @@
 </template>
 
 <script>
-import { Editor, EditorContent } from '@tiptap/vue-2'
-import StarterKit from '@tiptap/starter-kit'
-import Collaboration from '@tiptap/extension-collaboration'
-import CollaborationCursor from '@tiptap/extension-collaboration-cursor'
-import TaskList from '@tiptap/extension-task-list'
-import TaskItem from '@tiptap/extension-task-item'
-import Highlight from '@tiptap/extension-highlight'
-import CharacterCount from '@tiptap/extension-character-count'
+import { Editor, EditorContent } from '@tiptap-es5/vue-2'
+import StarterKit from '@tiptap-es5/starter-kit'
+import Collaboration from '@tiptap-es5/extension-collaboration'
+import CollaborationCursor from '@tiptap-es5/extension-collaboration-cursor'
+import TaskList from '@tiptap-es5/extension-task-list'
+import TaskItem from '@tiptap-es5/extension-task-item'
+import Highlight from '@tiptap-es5/extension-highlight'
+import CharacterCount from '@tiptap-es5/extension-character-count'
 import * as Y from 'yjs'
 import { WebsocketProvider } from 'y-websocket'
 import { IndexeddbPersistence } from 'y-indexeddb'

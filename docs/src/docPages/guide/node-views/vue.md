@@ -3,9 +3,11 @@
 ## toc
 
 ## Introduction
+
 Using Vanilla JavaScript can feel complex if you are used to work in Vue. Good news: You can use regular Vue components in your node views, too. There is just a little bit you need to know, but let’s go through this one by one.
 
 ## Render a Vue component
+
 Here is what you need to do to render Vue components inside your editor:
 
 1. [Create a node extension](/guide/custom-extensions)
@@ -17,17 +19,17 @@ Here is what you need to do to render Vue components inside your editor:
 This is how your node extension could look like:
 
 ```js
-import { Node } from '@tiptap/core'
-import { VueNodeViewRenderer } from '@tiptap/vue-2'
-import Component from './Component.vue'
+import { Node } from "@tiptap-es5/core";
+import { VueNodeViewRenderer } from "@tiptap-es5/vue-2";
+import Component from "./Component.vue";
 
 export default Node.create({
   // configuration …
 
   addNodeView() {
-    return VueNodeViewRenderer(Component)
-  },
-})
+    return VueNodeViewRenderer(Component);
+  }
+});
 ```
 
 There is a little bit of magic required to make this work. But don’t worry, we provide a wrapper component you can use to get started easily. Don’t forget to add it to your custom Vue component, like shown below:
@@ -47,6 +49,7 @@ Got it? Let’s see it in action. Feel free to copy the below example to get sta
 That component doesn’t interact with the editor, though. Time to wire it up.
 
 ## Access node attributes
+
 The `VueNodeViewRenderer` which you use in your node extension, passes a few very helpful props to your custom Vue component. One of them is the `node` prop. Add this snippet to your Vue component to directly access the node:
 
 ```js
@@ -61,10 +64,11 @@ props: {
 That enables you to access node attributes in your Vue component. Let’s say you have [added an attribute](/guide/custom-extensions#attributes) named `count` to your node extension (like we did in the above example) you could access it like this:
 
 ```js
-this.node.attrs.count
+this.node.attrs.count;
 ```
 
 ## Update node attributes
+
 You can even update node attributes from your node, with the help of the `updateAttributes` prop passed to your component. Just add this snippet to your component:
 
 ```js
@@ -80,13 +84,14 @@ Pass an object with updated attributes to the function:
 
 ```js
 this.updateAttributes({
-  count: this.node.attrs.count + 1,
-})
+  count: this.node.attrs.count + 1
+});
 ```
 
 And yes, all of that is reactive, too. A pretty seemless communication, isn’t it?
 
 ## Adding a content editable
+
 There is another component called `NodeViewContent` which helps you adding editable content to your node view. Here is an example:
 
 ```html
@@ -97,14 +102,14 @@ There is another component called `NodeViewContent` which helps you adding edita
 </template>
 
 <script>
-import { NodeViewWrapper, NodeViewContent } from '@tiptap/vue-2'
+  import { NodeViewWrapper, NodeViewContent } from "@tiptap-es5/vue-2";
 
-export default {
-  components: {
-    NodeViewWrapper,
-    NodeViewContent,
-  },
-}
+  export default {
+    components: {
+      NodeViewWrapper,
+      NodeViewContent
+    }
+  };
 </script>
 ```
 
@@ -117,6 +122,7 @@ Keep in mind that this content is rendered by tiptap. That means you need to tel
 The `NodeViewWrapper` and `NodeViewContent` components render a `<div>` HTML tag (`<span>` for inline nodes), but you can change that. For example `<node-view-content as="p">` should render a paragraph. One limitation though: That tag must not change during runtime.
 
 ## All available props
+
 For advanced use cases, we pass a few more props to the component. Here is the full list of what props you can expect:
 
 ```html
@@ -125,55 +131,55 @@ For advanced use cases, we pass a few more props to the component. Here is the f
 </template>
 
 <script>
-import { NodeViewWrapper } from '@tiptap/vue-2'
+  import { NodeViewWrapper } from "@tiptap-es5/vue-2";
 
-export default {
-  components: {
-    NodeViewWrapper,
-  },
-
-  props: {
-    // the editor instance
-    editor: {
-      type: Object,
+  export default {
+    components: {
+      NodeViewWrapper
     },
 
-    // the current node
-    node: {
-      type: Object,
-    },
+    props: {
+      // the editor instance
+      editor: {
+        type: Object
+      },
 
-    // an array of decorations
-    decorations: {
-      type: Array,
-    },
+      // the current node
+      node: {
+        type: Object
+      },
 
-    // `true` when there is a `NodeSelection` at the current node view
-    selected: {
-      type: Boolean,
-    },
+      // an array of decorations
+      decorations: {
+        type: Array
+      },
 
-    // access to the node extension, for example to get options
-    extension: {
-      type: Object,
-    },
+      // `true` when there is a `NodeSelection` at the current node view
+      selected: {
+        type: Boolean
+      },
 
-    // get the document position of the current node
-    getPos: {
-      type: Function,
-    },
+      // access to the node extension, for example to get options
+      extension: {
+        type: Object
+      },
 
-    // update attributes of the current node
-    updateAttributes: {
-      type: Function,
-    },
+      // get the document position of the current node
+      getPos: {
+        type: Function
+      },
 
-    // delete the current node
-    deleteNode: {
-      type: Function,
-    },
-  },
-}
+      // update attributes of the current node
+      updateAttributes: {
+        type: Function
+      },
+
+      // delete the current node
+      deleteNode: {
+        type: Function
+      }
+    }
+  };
 </script>
 ```
 
@@ -181,21 +187,22 @@ If you just want to have all (and to have TypeScript support) you can import all
 
 ```js
 // Vue 3
-import { defineComponent } from 'vue'
-import { nodeViewProps } from '@tiptap/vue-3'
+import { defineComponent } from "vue";
+import { nodeViewProps } from "@tiptap-es5/vue-3";
 export default defineComponent({
-  props: nodeViewProps,
-})
+  props: nodeViewProps
+});
 
 // Vue 2
-import Vue from 'vue'
-import { nodeViewProps } from '@tiptap/vue-2'
+import Vue from "vue";
+import { nodeViewProps } from "@tiptap-es5/vue-2";
 export default Vue.extend({
-  props: nodeViewProps,
-})
+  props: nodeViewProps
+});
 ```
 
 ## Dragging
+
 To make your node views draggable, set `draggable: true` in the extension and add `data-drag-handle` to the DOM element that should function as the drag handle.
 
 <demo name="Guide/NodeViews/DragHandle" />

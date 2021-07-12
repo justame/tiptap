@@ -1,4 +1,4 @@
-import { Editor, posToDOMRect } from '@tiptap/core'
+import { Editor, posToDOMRect } from '@tiptap-es5/core'
 import { EditorState, Plugin, PluginKey } from 'prosemirror-state'
 import { EditorView } from 'prosemirror-view'
 import tippy, { Instance, Props } from 'tippy.js'

@@ -1,4 +1,4 @@
-export * from '@tiptap/core'
+export * from '@tiptap-es5/core'
 export * from './BubbleMenu'
 export { Editor } from './Editor'
 export * from './EditorContent'

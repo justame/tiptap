@@ -1,6 +1,7 @@
 # Bold
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-bold.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-bold)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-bold.svg)](https://npmcharts.com/compare/@tiptap/extension-bold?minimal=true)
+
+[![Version](https://img.shields.io/npm/v/@tiptap-es5/extension-bold.svg?label=version)](https://www.npmjs.com/package/@tiptap-es5/extension-bold)
+[![Downloads](https://img.shields.io/npm/dm/@tiptap-es5/extension-bold.svg)](https://npmcharts.com/compare/@tiptap-es5/extension-bold?minimal=true)
 
 Use this extension to render text in **bold**. If you pass `<strong>`, `<b>` tags, or text with inline `style` attributes setting the `font-weight` CSS rule in the editor’s initial content, they all will be rendered accordingly.
 
@@ -11,20 +12,23 @@ The extension will generate the corresponding `<strong>` HTML tags when reading 
 :::
 
 ## Installation
+
 ```bash
 # with npm
-npm install @tiptap/extension-bold
+npm install @tiptap-es5/extension-bold
 
 # with Yarn
-yarn add @tiptap/extension-bold
+yarn add @tiptap-es5/extension-bold
 ```
 
 ## Settings
+
 | Option         | Type     | Default | Description                                                           |
 | -------------- | -------- | ------- | --------------------------------------------------------------------- |
 | HTMLAttributes | `Object` | `{}`    | Custom HTML attributes that should be added to the rendered HTML tag. |
 
 ## Commands
+
 | Command    | Parameters | Description        |
 | ---------- | ---------- | ------------------ |
 | setBold    | —          | Mark text as bold. |
@@ -32,11 +36,14 @@ yarn add @tiptap/extension-bold
 | unsetBold  | —          | Remove bold mark.  |
 
 ## Keyboard shortcuts
-* Windows/Linux: `Control`&nbsp;`B`
-* macOS: `Cmd`&nbsp;`B`
+
+- Windows/Linux: `Control`&nbsp;`B`
+- macOS: `Cmd`&nbsp;`B`
 
 ## Source code
+
 [packages/extension-bold/](https://github.com/ueberdosis/tiptap/blob/main/packages/extension-bold/)
 
 ## Usage
+
 <demo name="Marks/Bold" highlight="3-5,17,36" />

@@ -5,14 +5,14 @@
 </template>
 
 <script>
-import { Editor, EditorContent } from '@tiptap/vue-2'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import Focus from '@tiptap/extension-focus'
-import Code from '@tiptap/extension-code'
-import BulletList from '@tiptap/extension-bullet-list'
-import ListItem from '@tiptap/extension-list-item'
+import { Editor, EditorContent } from '@tiptap-es5/vue-2'
+import Document from '@tiptap-es5/extension-document'
+import Paragraph from '@tiptap-es5/extension-paragraph'
+import Text from '@tiptap-es5/extension-text'
+import Focus from '@tiptap-es5/extension-focus'
+import Code from '@tiptap-es5/extension-code'
+import BulletList from '@tiptap-es5/extension-bullet-list'
+import ListItem from '@tiptap-es5/extension-list-item'
 
 export default {
   components: {

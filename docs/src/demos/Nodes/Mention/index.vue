@@ -6,11 +6,11 @@
 
 <script>
 import tippy from 'tippy.js'
-import { Editor, EditorContent, VueRenderer } from '@tiptap/vue-2'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import Mention from '@tiptap/extension-mention'
+import { Editor, EditorContent, VueRenderer } from '@tiptap-es5/vue-2'
+import Document from '@tiptap-es5/extension-document'
+import Paragraph from '@tiptap-es5/extension-paragraph'
+import Text from '@tiptap-es5/extension-text'
+import Mention from '@tiptap-es5/extension-mention'
 import MentionList from './MentionList'
 
 export default {

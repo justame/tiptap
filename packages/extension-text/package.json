@@ -1,5 +1,5 @@
 {
-  "name": "@tiptap/extension-text",
+  "name": "@tiptap-es5/extension-text",
   "description": "text extension for tiptap",
   "version": "2.0.0-beta.12",
   "homepage": "https://tiptap.dev",
@@ -21,6 +21,6 @@
     "dist"
   ],
   "peerDependencies": {
-    "@tiptap/core": "^2.0.0-beta.1"
+    "@tiptap-es5/core": "^2.0.0-beta.1"
   }
 }

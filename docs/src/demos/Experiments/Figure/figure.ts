@@ -4,13 +4,13 @@ import {
   mergeAttributes,
   findChildrenInRange,
   Tracker,
-} from '@tiptap/core'
+} from '@tiptap-es5/core'
 
 export interface FigureOptions {
   HTMLAttributes: Record<string, any>,
 }
 
-declare module '@tiptap/core' {
+declare module '@tiptap-es5/core' {
   interface Commands<ReturnType> {
     figure: {
       /**

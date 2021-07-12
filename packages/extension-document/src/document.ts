@@ -1,4 +1,4 @@
-import { Node } from '@tiptap/core'
+import { Node } from '@tiptap-es5/core'
 
 export const Document = Node.create({
   name: 'doc',

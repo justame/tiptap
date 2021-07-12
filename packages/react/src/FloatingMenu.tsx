@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import { FloatingMenuPlugin, FloatingMenuPluginKey, FloatingMenuPluginProps } from '@tiptap/extension-floating-menu'
+import { FloatingMenuPlugin, FloatingMenuPluginKey, FloatingMenuPluginProps } from '@tiptap-es5/extension-floating-menu'
 
 export type FloatingMenuProps = Omit<FloatingMenuPluginProps, 'element'> & {
   className?: string,

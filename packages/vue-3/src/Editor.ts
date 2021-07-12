@@ -1,5 +1,5 @@
 import { EditorState, Plugin, PluginKey } from 'prosemirror-state'
-import { Editor as CoreEditor, EditorOptions } from '@tiptap/core'
+import { Editor as CoreEditor, EditorOptions } from '@tiptap-es5/core'
 import {
   markRaw,
   Ref,

@@ -1,6 +1,6 @@
 import React from 'react'
-import { useEditor, EditorContent, BubbleMenu } from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
+import { useEditor, EditorContent, BubbleMenu } from '@tiptap-es5/react'
+import StarterKit from '@tiptap-es5/starter-kit'
 import './styles.scss'
 
 export default () => {

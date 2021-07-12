@@ -56,7 +56,7 @@ function normalizeKeyName(name: string) {
   return result
 }
 
-declare module '@tiptap/core' {
+declare module '@tiptap-es5/core' {
   interface Commands<ReturnType> {
     keyboardShortcut: {
       /**

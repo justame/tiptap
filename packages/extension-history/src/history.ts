@@ -1,4 +1,4 @@
-import { Extension } from '@tiptap/core'
+import { Extension } from '@tiptap-es5/core'
 import { history, undo, redo } from 'prosemirror-history'
 
 export interface HistoryOptions {
@@ -6,7 +6,7 @@ export interface HistoryOptions {
   newGroupDelay: number,
 }
 
-declare module '@tiptap/core' {
+declare module '@tiptap-es5/core' {
   interface Commands<ReturnType> {
     history: {
       /**

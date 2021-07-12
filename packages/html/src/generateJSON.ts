@@ -1,5 +1,5 @@
 import { DOMParser } from 'prosemirror-model'
-import { getSchema, Extensions } from '@tiptap/core'
+import { getSchema, Extensions } from '@tiptap-es5/core'
 // @ts-ignore
 import { parseHTML } from 'hostic-dom'
 

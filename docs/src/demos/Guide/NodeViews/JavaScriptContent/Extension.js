@@ -1,22 +1,22 @@
-import { Node, mergeAttributes } from '@tiptap/core'
+import { Node, mergeAttributes } from "@tiptap-es5/core";
 
 export default Node.create({
-  name: 'nodeView',
+  name: "nodeView",
 
-  group: 'block',
+  group: "block",
 
-  content: 'inline*',
+  content: "inline*",
 
   parseHTML() {
     return [
       {
-        tag: 'node-view',
-      },
-    ]
+        tag: "node-view"
+      }
+    ];
   },
 
   renderHTML({ HTMLAttributes }) {
-    return ['node-view', mergeAttributes(HTMLAttributes), 0]
+    return ["node-view", mergeAttributes(HTMLAttributes), 0];
   },
 
   addNodeView() {
@@ -30,23 +30,23 @@ export default Node.create({
         </div>
       */
 
-      const dom = document.createElement('div')
-      dom.classList.add('node-view')
+      const dom = document.createElement("div");
+      dom.classList.add("node-view");
 
-      const label = document.createElement('span')
-      label.classList.add('label')
-      label.innerHTML = 'Node view'
-      label.contentEditable = false
+      const label = document.createElement("span");
+      label.classList.add("label");
+      label.innerHTML = "Node view";
+      label.contentEditable = false;
 
-      const content = document.createElement('div')
-      content.classList.add('content')
+      const content = document.createElement("div");
+      content.classList.add("content");
 
-      dom.append(label, content)
+      dom.append(label, content);
 
       return {
         dom,
-        contentDOM: content,
-      }
-    }
-  },
-})
+        contentDOM: content
+      };
+    };
+  }
+});

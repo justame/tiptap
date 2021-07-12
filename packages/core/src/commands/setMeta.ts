@@ -1,6 +1,6 @@
 import { RawCommands } from '../types'
 
-declare module '@tiptap/core' {
+declare module '@tiptap-es5/core' {
   interface Commands<ReturnType> {
     setMeta: {
       /**

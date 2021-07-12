@@ -1,42 +1,40 @@
-import { Node, mergeAttributes } from '@tiptap/core'
-import { VueNodeViewRenderer } from '@tiptap/vue-2'
-import Component from './Component.vue'
+import { Node, mergeAttributes } from "@tiptap-es5/core";
+import { VueNodeViewRenderer } from "@tiptap-es5/vue-2";
+import Component from "./Component.vue";
 
 export default Node.create({
-  name: 'tableOfContents',
+  name: "tableOfContents",
 
-  group: 'block',
+  group: "block",
 
   atom: true,
 
   parseHTML() {
     return [
       {
-        tag: 'toc',
-      },
-    ]
+        tag: "toc"
+      }
+    ];
   },
 
   renderHTML({ HTMLAttributes }) {
-    return ['toc', mergeAttributes(HTMLAttributes)]
+    return ["toc", mergeAttributes(HTMLAttributes)];
   },
 
   addNodeView() {
-    return VueNodeViewRenderer(Component)
+    return VueNodeViewRenderer(Component);
   },
 
   addGlobalAttributes() {
     return [
       {
-        types: [
-          'heading',
-        ],
+        types: ["heading"],
         attributes: {
           id: {
-            default: null,
-          },
-        },
-      },
-    ]
-  },
-})
+            default: null
+          }
+        }
+      }
+    ];
+  }
+});

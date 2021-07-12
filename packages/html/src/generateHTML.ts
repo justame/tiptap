@@ -1,4 +1,4 @@
-import { Extensions, getSchema, JSONContent } from '@tiptap/core'
+import { Extensions, getSchema, JSONContent } from '@tiptap-es5/core'
 import { Node } from 'prosemirror-model'
 import getHTMLFromFragment from './getHTMLFromFragment'
 
