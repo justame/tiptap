@@ -1,7 +1,7 @@
 {
   "name": "@tiptap-es5/extension-table-row",
   "description": "table row extension for tiptap",
-  "version": "2.0.0-beta.19",
+  "version": "2.0.0-beta.20",
   "homepage": "https://tiptap.dev",
   "keywords": [
     "tiptap",
@@ -23,5 +23,5 @@
   "peerDependencies": {
     "@tiptap-es5/core": "^2.0.0-beta.1"
   },
-  "gitHead": "0a28fcbfdb7a0c03da9cc6825333b2fa660b7ffa"
+  "gitHead": "727e8700ada19361eba7e21444cb60663b3a0e52"
 }

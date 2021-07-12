@@ -1,7 +1,7 @@
 {
   "name": "@tiptap-es5/extension-link",
   "description": "link extension for tiptap",
-  "version": "2.0.0-beta.24",
+  "version": "2.0.0-beta.25",
   "homepage": "https://tiptap.dev",
   "keywords": [
     "tiptap",
@@ -26,5 +26,5 @@
   "dependencies": {
     "prosemirror-state": "^1.3.4"
   },
-  "gitHead": "0a28fcbfdb7a0c03da9cc6825333b2fa660b7ffa"
+  "gitHead": "727e8700ada19361eba7e21444cb60663b3a0e52"
 }

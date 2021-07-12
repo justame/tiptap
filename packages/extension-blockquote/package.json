@@ -23,6 +23,9 @@
   "peerDependencies": {
     "@tiptap-es5/core": "^2.0.0-beta.1"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "prosemirror-inputrules": "^1.1.3"
   },

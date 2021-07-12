@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0-beta.32](https://github.com/justame/tiptap/compare/@tiptap-es5/extension-placeholder@2.0.0-beta.31...@tiptap-es5/extension-placeholder@2.0.0-beta.32) (2021-07-12)
+
+**Note:** Version bump only for package @tiptap-es5/extension-placeholder
+
+
+
+
+
 # [2.0.0-beta.31](https://github.com/justame/tiptap/compare/@tiptap-es5/extension-placeholder@2.0.0-beta.30...@tiptap-es5/extension-placeholder@2.0.0-beta.31) (2021-07-12)
 
 **Note:** Version bump only for package @tiptap-es5/extension-placeholder
